@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="MontageofADreamDeferred.rnc" type="application/relax-ng-compact-syntax"?>
+<!--AMO: LAST PAGE'S POEM BLEEDS ONTO THIS PAGE 
+        when assembling all files, make sure to end the
+        wrapper elem. "poem" before poemTitle-->
+<xml>
+    <text>
+        <pb pNum="266"/>
+       <poem cont="previous">
+           <poemTitle>Brothers</poemTitle>
+           <body>
+               <stanza n="4">
+                    <line n="5">Kinsmen-you and I,</line>
+                    <line n="6">You from Africa,</line>
+                    <line n="7">I from the U.S.A.</line>
+                    <line n="8">Brother-you and I.</line>
+               </stanza>
+           </body>
+       </poem>
+        <poem>
+            <poemTitle>Likewise</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">The Jews:</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="2">Groceries</line>
+                    <line n="3">Suits</line>
+                    <line n="4">Fruits</line>
+                    <line n="5">Watches</line>
+                    <line n="6">Diamond rings</line>
+                    <line n="7">THE DAILY NEWS</line>
+                </stanza>
+                <stanza n="3">
+                    <line n="8">Jews sell me things.</line>
+                    <line n="9">Yom Kippur, no!</line>
+                    <line n="10">Shops all over Harlem</line>
+                    <line n="11">close up tight that night.</line>
+                </stanza>
+                <stanza n="4">
+                    <line n="11">Some folks blame high prices on the Jews.</line>
+                    <line n="12">(Some folks blame too much on Jews.)</line>
+                    <line n="13">But in Harlem they don't answer back,</line>
+                    <line n="14">Just maybe shrug their shoulders,</line>
+                    <line n="15">"What's the use?"</line>
+                    <line n="16">What's the use</line>
+                    <line n="17">in Harlem?</line>
+                    <line n="18">What's the use?</line>
+                    <line n="19">What's the Harlem?</line>
+                    <line n="20">Use in Harlem</line>
+                </stanza>
+            </body>
+        </poem>
+        
+        <pb pNum="267"/>
+        <poem cont="previous">
+            <poemTitle>Likewise</poemTitle>
+            <body>
+                <stanza n="5">
+                    <line n="21"><format wordType="italics">Hey!</format></line>
+                    <line n="22"><format wordType="italics">Baba-re-bop!</format></line>
+                    <line n="23"><format wordType="italics">Mop!</format></line>
+                    <line n="24"><format wordType="italics">On a be-bop kick!</format></line>
+                </stanza>
+                <stanza n="6">
+                    <line n="25">Sometimes I think</line>
+                    <line n="26">Jews have heard</line>
+                    <line n="27">the music of a</line>
+                    <line n="28">dream deferred.</line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Silver</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">Cheap little rhymes</line>
+                    <line n="2">A cheap little tune</line>
+                    <line n="3">Are sometimes as dangerous</line>
+                    <line n="4">As a sliver of the moon.</line>
+                    <line n="5">A cheap little tune</line>
+                    <line n="6">To cheap little rhymes</line>
+                    <line n="7">Can cut a man's</line>
+                    <line n="8">Throat sometimes.</line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Hope</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">He rose up on his dying bed</line>
+                    <line n="2">and asked for fish.</line>
+                    <line n="3">His wife looked it up in her dream book</line>
+                    <line n="4">and played it.</line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="268"/>
+        <poem>
+            <poemTitle>Dream Boogie: Variation</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1"></line>
+                </stanza>
+            </body>
+        </poem>
+    </text>
+</xml>
