@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="LangstonHProject.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="MontageofADreamDeferred.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <text>
      <pb pNum="218"/>
@@ -20,7 +20,7 @@
       </poem>
     <pb pNum="0"/>
     <title>
-            <format wordType="caps" type="leftCenter">MONTAGE OF A DREAM DEFERRED</format>
+            <format wordType="caps" margin="leftCenter">MONTAGE OF A DREAM DEFERRED</format>
         </title>
     <pb pNum="221"/>
         <poem>
@@ -38,8 +38,8 @@
                 <line n="7">Beating out and beating out a-</line>
             </stanza>
             <stanza n="3">
-                <line n="8"><format wordType="italics" type="indent">You think</format></line>
-                <line n="9"><format wordType="italics" type="indent">It's a happy beat?</format></line>
+                <line n="8"><format wordType="italics" margin="ind1">You think</format></line>
+                <line n="9"><format wordType="italics" margin="ind1">It's a happy beat?</format></line>
             </stanza>
             <stanza n="4">
                 <line n="10">Listen to it closely;</line>
@@ -48,7 +48,7 @@
                 <line n="13">like a-</line>
             </stanza>
             <stanza n="5">
-                <line n="14"><format wordType="italics" type="indent">What did I say?</format></line>
+                <line n="14"><format wordType="italics" margin="ind1">What did I say?</format></line>
             </stanza>
             <stanza n="6">
                 <line n="15">Sure,</line>
@@ -56,12 +56,12 @@
                 <line n="17">Take it away!</line>
             </stanza>
             <stanza n="7">
-                <line n="18"><format wordType="italics" type="indent">Hey, pop!</format></line>
-                <line n="19"><format wordType="italics" type="indent">Re-bop!</format></line>
-                <line n="20"><format wordType="italics" type="indent">Mop!</format></line>
+                <line n="18"><format wordType="italics" margin="ind1">Hey, pop!</format></line>
+                <line n="19"><format wordType="italics" margin="ind1">Re-bop!</format></line>
+                <line n="20"><format wordType="italics" margin="ind1">Mop!</format></line>
             </stanza>
             <stanza n="8">
-                <line n="21"><format wordType="italics" type="indent">Y-e-a-h!</format></line>
+                <line n="21"><format wordType="italics" margin="ind1">Y-e-a-h!</format></line>
             </stanza></body>
         </poem>
     <pb pNum="222"/>
@@ -72,7 +72,7 @@
                 <line n="1">Seven ladies</line>
                 <line n="2">and seventeen gentlemen</line>
                 <line n="3">at the Elks Club Lounge</line>
-                <line n="4"><format type="underline">planning planning</format> a parade:</line>
+                <line n="4"><format wordType="underline">planning planning</format> a parade:</line>
                 <line n="5">Grand Marshal in his white suit</line>
                 <line n="6">will lead it.</line>
                 <line n="7">Cadilacs with dignitaries</line>
@@ -97,36 +97,36 @@
                 <line n="22">noon till night...</line>
             </stanza>
             <stanza n="4">
-                <line n="23"><format wordType="italics" type="indent">I never knew</format></line>
-                <line n="24"><format wordType="italics" type="indent">that many Negroes</format></line>
-                <line n="25"><format wordType="italics" type="indent"></format>were on earth,</line>
-                <line n="26"><format wordType="italics" type="indent"></format>did you?</line>
+                <line n="23"><format wordType="italics" margin="ind1">I never knew</format></line>
+                <line n="24"><format wordType="italics" margin="ind1">that many Negroes</format></line>
+                <line n="25"><format wordType="italics" margin="ind1"></format>were on earth,</line>
+                <line n="26"><format wordType="italics" margin="ind1"></format>did you?</line>
             </stanza>
             <stanza n="5">
-                <line n="27"><format wordType="italics" type="indent">I never knew!</format></line>
+                <line n="27"><format wordType="italics" margin="ind1">I never knew!</format></line>
             </stanza>           
             <stanza n="5">
-                <line n="27"><format wordType="caps" type="doubleIndent">PARADE</format></line>
+                <line n="27"><format wordType="caps" margin="ind2">PARADE</format></line>
             </stanza>
         </body>
         </poem>
     <pb pNum="223"/>
-        <poem cont="previous">
+        <poem cont="continued">
         <poemTitle>Parade</poemTitle>
             <body><stanza n="6">
-                <line n="28"><format type="indent">A chance to let</format></line>
+                <line n="28"><format margin="ind1">A chance to let</format></line>
             </stanza>
             <stanza n="7">
-                <line n="29"><format wordType="caps" type="doubleIndent">PARADE</format></line>
+                <line n="29"><format wordType="caps" margin="ind2">PARADE</format></line>
             </stanza>
             <stanza n="8">
-                <line n="30"><format type="indent">the whole world see</format></line>
+                <line n="30"><format margin="ind1">the whole world see</format></line>
             </stanza>
             <stanza n="9">
-                <line n="31"><format wordType="caps" type="doubleIndent">PARADE</format></line>
+                <line n="31"><format wordType="caps" margin="ind2">PARADE</format></line>
             </stanza>
             <stanza n="10">
-                <line n="32"><format type="indent">old black me!</format></line>
+                <line n="32"><format margin="ind1">old black me!</format></line>
             </stanza></body>
         </poem>
         <!-- <margin> AW: something is written here, I can't tell what it says </margin> -->
@@ -139,26 +139,26 @@
                 <line n="4">listen at them little varmints!</line>
             </stanza>
             <stanza n="2">
-                <line n="5"><format wordType="italics" type="indent">By what sends</format></line>
-                <line n="6"><format wordType="italics" type="indent">the white kids</format></line>
-                <line n="7"><format wordType="italics" type="indent">I ain't sent:</format></line>
-                <line n="8"><format wordType="italics" type="indent">I know I can't</format></line>
-                <line n="9"><format wordType="italics" type="indent">be President.</format></line>
+                <line n="5"><format wordType="italics" margin="ind1">By what sends</format></line>
+                <line n="6"><format wordType="italics" margin="ind1">the white kids</format></line>
+                <line n="7"><format wordType="italics" margin="ind1">I ain't sent:</format></line>
+                <line n="8"><format wordType="italics" margin="ind1">I know I can't</format></line>
+                <line n="9"><format wordType="italics" margin="ind1">be President.</format></line>
             </stanza>
             <stanza n="3">
                 <line n="10">There is two thousand children</line>
                 <line n="11">in this block, I do believe!</line>
             </stanza>
             <stanza n="4">
-                <line n="12"><format wordType="italics" type="indent">What don't bug</format></line>
-                <line n="13"><format wordType="italics" type="indent"></format>then white kids</line>
-                <line n="14"><format wordType="italics" type="indent"></format>sure bugs me;</line>
-                <line n="15"><format wordType="italics" type="indent"></format>We knows everybody</line>
-                <line n="16"><format wordType="italics" type="indent"></format>ain't free!</line>
+                <line n="12"><format wordType="italics" margin="ind1">What don't bug</format></line>
+                <line n="13"><format wordType="italics" margin="ind1"></format>then white kids</line>
+                <line n="14"><format wordType="italics" margin="ind1"></format>sure bugs me;</line>
+                <line n="15"><format wordType="italics" margin="ind1"></format>We knows everybody</line>
+                <line n="16"><format wordType="italics" margin="ind1"></format>ain't free!</line>
             </stanza>
         </body></poem>
     <pb pNum="224"/>
-        <poem cont="previous">
+        <poem cont="continued">
             <poemTitle>Children's Rhymes</poemTitle>
             <body><stanza n="5">
                 <line n="17">Some of these young ones us cert'ly bad-</line>
@@ -166,22 +166,22 @@
                 <line n="19">and my gold fish et the glass.</line>
             </stanza>
             <stanza n="6">
-                <line n="20"><format wordType="italics" type="indent">What's written down</format></line>
-                <line n="21"><format wordType="italics" type="indent">for white folks</format></line>
-                <line n="22"><format wordType="italics" type="indent"></format>ain't for us a-tall;</line>
-                <line n="23"><format wordType="italics" type="indent"></format><q>Liberty And Justice-</q></line>
-                <line n="24"><format wordType="italics" type="indent"></format><q>Huh-For All.</q></line>
+                <line n="20"><format wordType="italics" margin="ind1">What's written down</format></line>
+                <line n="21"><format wordType="italics" margin="ind1">for white folks</format></line>
+                <line n="22"><format wordType="italics" margin="ind1"></format>ain't for us a-tall;</line>
+                <line n="23"><format wordType="italics" margin="ind1"></format><q>Liberty And Justice-</q></line>
+                <line n="24"><format wordType="italics" margin="ind1"></format><q>Huh-For All.</q></line>
             </stanza>
             <stanza n="7">
-                <line n="25"><format wordType="italics" type="indent">Oop-pop-a-da!</format></line>
-                <line n="26"><format wordType="italics" type="indent">Skee! Daddle-de-do!</format></line>
-                <line n="27"><format wordType="italics" type="indent">Be-bop!</format></line>
+                <line n="25"><format wordType="italics" margin="ind1">Oop-pop-a-da!</format></line>
+                <line n="26"><format wordType="italics" margin="ind1">Skee! Daddle-de-do!</format></line>
+                <line n="27"><format wordType="italics" margin="ind1">Be-bop!</format></line>
             </stanza>
             <stanza n="8">
-                <line n="28"><format type="indent">Salt'peanuts!</format></line>
+                <line n="28"><format margin="ind1">Salt'peanuts!</format></line>
             </stanza>
             <stanza n="9">
-                <line n="29"><format wordType="italics" type="indent">De-dop!</format></line>
+                <line n="29"><format wordType="italics" margin="ind1">De-dop!</format></line>
             </stanza></body>
         </poem>
         <poem><poemTitle>Sister</poemTitle>
@@ -195,29 +195,29 @@
                 <line n="6">I can understand-some decent man?</line>
             </stanza>
             <stanza n="2">
-                <line n="7"><format wordType="italics" type="indent">Did it ever occur to you, son,</format></line>
-                <line n="7"><format wordType="italics" type="indent">the reason Marie runs around with trash</format></line>
-                <line n="7"><format wordType="italics" type="indent">is she wants some cash?</format></line>
+                <line n="7"><format wordType="italics" margin="ind1">Did it ever occur to you, son,</format></line>
+                <line n="7"><format wordType="italics" margin="ind1">the reason Marie runs around with trash</format></line>
+                <line n="7"><format wordType="italics" margin="ind1">is she wants some cash?</format></line>
             </stanza>
             <stanza n="3">
                 <line n="8">Don't decent folks have dough?</line>
             </stanza>
         </body></poem>
     <pb pNum="225"/>
-        <poem cont="previous">
+        <poem cont="continued">
             <poemTitle>Sister</poemTitle>
             <body><stanza n="4">
-                <line n="9"><format wordType="italics" type="indent">Unfortunately usually no!</format></line>
+                <line n="9"><format wordType="italics" margin="ind1">Unfortunately usually no!</format></line>
             </stanza>
             <stanza n="5">
                 <line n="10">Well, anyway, it don't have to be a married man.</line>
             </stanza>
             <stanza n="6">
-                <line n="11"><format wordType="italics" type="indent">Did it ever occur to you, boy,</format></line>
-                <line n="12"><format wordType="italics" type="indent">that a woman does the best she can?</format></line>
+                <line n="11"><format wordType="italics" margin="ind1">Did it ever occur to you, boy,</format></line>
+                <line n="12"><format wordType="italics" margin="ind1">that a woman does the best she can?</format></line>
             </stanza>
             <stanza n="7">
-                <line n="13"><format wordType="italics" type="doubleIndent">Comment on Stoop</format></line>
+                <line n="13"><format wordType="italics" margin="ind2">Comment on Stoop</format></line>
             </stanza>
             <stanza n="8">
                 <line n="14"><format wordType="italics">So does a man.</format></line>
@@ -230,12 +230,12 @@
                 <line n="1">six or eight and ten years older'n myself.</line>
                 <line n="1">I don't fool with these young girls.</line>
                 <line n="1">Young girl'll say,</line>
-                <line n="1"><format wordType="italics" type="indent">Daddy, I want so-and-so.</format></line>
-                <line n="1"><format wordType="italics" type="indent">I needs this, that, and the other.</format></line>
+                <line n="1"><format wordType="italics" margin="ind1">Daddy, I want so-and-so.</format></line>
+                <line n="1"><format wordType="italics" margin="ind1">I needs this, that, and the other.</format></line>
                 <line n="1">But a old woman'll say,</line>
-                <line n="1"><format wordType="italics" type="indent">Honey, what does YOU need?</format></line><!--AW: Can I use the same element within itself? I had been using `<format wordType="caps>` for words in all capital letters, but in this case the word in caps is within an already formatted line.-->
-                <line n="1"><format wordType="italics" type="indent">I just drawed my money tonight</format></line>
-                <line n="1"><format wordType="italics" type="indent">and it's all your'n</format></line>
+                <line n="1"><format wordType="italics" margin="ind1">Honey, what does YOU need?</format></line><!--AW: Can I use the same element within itself? I had been using `<format wordType="caps>` for words in all capital letters, but in this case the word in caps is within an already formatted line.-->
+                <line n="1"><format wordType="italics" margin="ind1">I just drawed my money tonight</format></line>
+                <line n="1"><format wordType="italics" margin="ind1">and it's all your'n</format></line>
                 <line n="1">That's why I likes a older woman</line>
                 <line n="1">who can appreciate me:</line>
                 <line n="1">When she conversations you</line>
@@ -263,13 +263,13 @@
         <poem><poemTitle>Question</poemTitle>
         <body>
             <stanza n="1">
-                <line n="1"><format wordType="italics" type="indent">Said the lady, Can you do</format></line>
-                <line n="2"><format wordType="italics" type="indent">what my other man can't do-</format></line>
-                <line n="3"><format wordType="italics" type="indent">That is</format></line>
-                <line n="4"><format wordType="italics" type="indent">love me, daddy-</format></line>
-                <line n="5"><format wordType="italics" type="indent">and feed me, too?</format></line>
-                <line n="6"><format wordType="italics" type="doubleIndent">Figurine</format></line>
-                <line n="7"><format type="indent">De-dop!</format></line>
+                <line n="1"><format wordType="italics" margin="ind1">Said the lady, Can you do</format></line>
+                <line n="2"><format wordType="italics" margin="ind1">what my other man can't do-</format></line>
+                <line n="3"><format wordType="italics" margin="ind1">That is</format></line>
+                <line n="4"><format wordType="italics" margin="ind1">love me, daddy-</format></line>
+                <line n="5"><format wordType="italics" margin="ind1">and feed me, too?</format></line>
+                <line n="6"><format wordType="italics" margin="ind2">Figurine</format></line>
+                <line n="7"><format margin="ind1">De-dop!</format></line>
             </stanza>
         </body></poem>
     <pb pNum="227"/>
@@ -325,17 +325,17 @@
         <poem><poemTitle>Warning</poemTitle>
         <body>
             <stanza n="1">
-                <line n="1"><format type="indent">Daddy,</format></line>
-                <line n="2"><format type="indent">don't let your dog</format></line>
-                <line n="3"><format type="indent">curb you!</format></line>
+                <line n="1"><format margin="ind1">Daddy,</format></line>
+                <line n="2"><format margin="ind1">don't let your dog</format></line>
+                <line n="3"><format margin="ind1">curb you!</format></line>
             </stanza>
         </body></poem>
        <poem> <poemTitle>Croon</poemTitle>
         <body>
             <stanza n="1">
-                <line n="1"><format type="indent">I don't give a damn</format></line>
-                <line n="2"><format type="indent">For Alabam'</format></line>
-                <line n="3"><format type="indent">Even if it is my home.</format></line>
+                <line n="1"><format margin="ind1">I don't give a damn</format></line>
+                <line n="2"><format margin="ind1">For Alabam'</format></line>
+                <line n="3"><format margin="ind1">Even if it is my home.</format></line>
             </stanza>
         </body></poem>
         <poem><poemTitle>New Yorkers</poemTitle>
@@ -347,7 +347,7 @@
             </stanza>
         </body></poem>
     <pb pNum="229"/>
-        <poem cont="previous">
+        <poem cont="continued">
             <poemTitle>New Yorkers</poemTitle>
             <body><stanza n="2">
                 <line n="4"><format wordType="italics">I wasn't born here, she said,</format></line>
@@ -360,7 +360,7 @@
                 <line n="11"><format wordType="italics">of earth nor sky</format></line>
                 <line n="12"><format wordType="italics">So I come up here.</format></line>
                 <line n="13"><format wordType="italics">Now what've I got?</format></line>
-                <line n="14"><format wordType="italics" type="indent">You!</format></line>
+                <line n="14"><format wordType="italics" margin="ind1">You!</format></line>
             </stanza>
             <stanza n="3">
                 <line n="15">She lifted up her lips</line>
@@ -373,8 +373,8 @@
             <stanza n="1">
                 <line n="1">Early blue evening.</line>
                 <line n="2">Lights ain't come on yet.</line>
-                <line n="3"><format wordType="italics" type="indent">Looky yonder!</format></line>
-                <line n="4"><format wordType="italics" type="indent">They come on now!</format></line>
+                <line n="3"><format wordType="italics" margin="ind1">Looky yonder!</format></line>
+                <line n="4"><format wordType="italics" margin="ind1">They come on now!</format></line>
             </stanza>
         </body></poem>
         <poem><poemTitle>Easy Boogie</poemTitle>
@@ -413,13 +413,13 @@
         <poem><poemTitle>Mellow</poemTitle>
             <body>
                 <stanza n="1">
-                    <line n="1"><format type="indent">Intro the lap</format></line>
-                    <line n="2"><format type="indent">of black celebrities</format></line>
-                    <line n="3"><format type="indent">white girls fall</format></line>
-                    <line n="4"><format type="indent">like pale plums from a tree</format></line>
-                    <line n="5"><format type="indent">beyond a high tension wall</format></line>
-                    <line n="6"><format type="indent">which makes it</format></line>
-                    <line n="7"><format type="indent">more thrilling.</format></line>
+                    <line n="1"><format margin="ind1">Intro the lap</format></line>
+                    <line n="2"><format margin="ind1">of black celebrities</format></line>
+                    <line n="3"><format margin="ind1">white girls fall</format></line>
+                    <line n="4"><format margin="ind1">like pale plums from a tree</format></line>
+                    <line n="5"><format margin="ind1">beyond a high tension wall</format></line>
+                    <line n="6"><format margin="ind1">which makes it</format></line>
+                    <line n="7"><format margin="ind1">more thrilling.</format></line>
                 </stanza>
             </body>
         </poem>
@@ -452,9 +452,9 @@
             <body>
                 <stanza n="1">
                     <line n="1">That whiskey will cook the egg</line>
-                    <line n="2"><format wordType="italics" type="indent">say not so</format></line>
-                    <line n="3"><format wordType="italics" type="indent">Maybe the egg</format></line>
-                    <line n="4"><format wordType="italics" type="indent">will cook the whiskey.</format></line>
+                    <line n="2"><format wordType="italics" margin="ind1">say not so</format></line>
+                    <line n="3"><format wordType="italics" margin="ind1">Maybe the egg</format></line>
+                    <line n="4"><format wordType="italics" margin="ind1">will cook the whiskey.</format></line>
                     
                     <line n="5">You ought to know!</line>
                 </stanza>
@@ -467,17 +467,17 @@
                     <line n="1">Detectives from the vice squad -</line>
                     <line n="2">with weary sadistic eyes</line>
                     <line n="3">spotting fairies.</line>
-                    <line n="4"><format wordType="italics" type="indent">Degenerates</format></line>
-                    <line n="5"><format type="indent">Some folks say</format></line>
-                    <line n="6"><format type="indent">But God,Nature</format></line>
-                    <line n="7"><format type="indent"> or somebody</format></line>
-                    <line n="6"><format type="indent">made them that way</format></line>  
+                    <line n="4"><format wordType="italics" margin="ind1">Degenerates</format></line>
+                    <line n="5"><format margin="ind1">Some folks say</format></line>
+                    <line n="6"><format margin="ind1">But God,Nature</format></line>
+                    <line n="7"><format margin="ind1"> or somebody</format></line>
+                    <line n="6"><format margin="ind1">made them that way</format></line>  
                 </stanza>
                 
                 <stanza n="2">
                     <line n="7">Police lady or Lesbian</line>
                     <line n="6"> over there?</line>
-                    <line n="6"><format type="indent">Where?</format></line>
+                    <line n="6"><format margin="ind1">Where?</format></line>
                 </stanza>
             </body>
         </poem>
