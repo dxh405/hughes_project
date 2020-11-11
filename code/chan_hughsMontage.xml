@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Documents/GitHub/hughes_project/MontageofADreamDeferred.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <!--<meta>
+    <mainTitle></mainTitle>
+    <collectionTitle> Montage of a Dream Deferred</collectionTitle>
+    <publisher>
+        <location place=""></location>
+    </publisher>
+    </meta> -->
+    <text>
+        <pb pNum="254"/>
+        <poem>
+            <poemTitle>
+                Request
+            </poemTitle>
+            <body>
+               <stanza n="1">
+                   <line n="1"><format margin="ind2">Gimme $25.00</format></line>
+                   <line n="2"><format margin="ind2">and the change.</format></line>
+                   <line n="3"><format margin="ind2">I'm going</format></line>
+                   <line n="4"><format margin="ind2">where the morning</format></line>
+                   <line n="5"><format margin="ind2">and the evening</format></line>
+                   <line n="6"><format margin="ind2">won't bother me.</format></line>
+               </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Shame on You</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">If you're great enough</line>
+                    <line n="2">and clever enough</line>
+                    <line n="3">the government might honor you.</line>
+                    <line n="4">But the people will forget --</line>
+                    <line n="5">Except on holidays.</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="1">A movie house in Harlem named after Lincoln,</line>
+                    <line n="2">Nothing at all named after John Brown.</line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="255"/>
+        <poem cont="continued">
+            <poemTitle>Shame on You</poemTitle>
+            <body>
+                <stanza n="3">
+                    <line n="1">Black people don't remember</line>
+                    <line n="2">any better than white</line>
+                </stanza>
+                <stanza n="4">
+                    <line n="1">If you're not alive and kicking,</line>
+                    <line n="2"><format wordType="italics">shame on you!</format></line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+           <poemTitle> World War II</poemTitle>
+           <body>
+               <stanza n="1">
+                   <line n="1">What a grand time was the war!</line>
+                   <line n="2"><format margin="ind1">Oh, my, my!</format></line>
+                   <line n="3">What a grand time was the war!</line>
+                   <line n="4"><format margin="ind1">My, my, my!</format></line>
+                   <line n="5">In wartime we had fun,</line>
+                   <line n="6">Sorry that old war is done!</line>
+                   <line n="7">What a grand time was the war,</line>
+                   <line n="8"><format margin="ind1">My, my!</format></line>
+               </stanza>
+               <stanza n="2">
+                   <line n="1">Echo:</line>
+                   <line n="2"><format wordType="italics" margin="ind1">Did</format></line>
+                   <line n="3"><format wordType="italics" margin="ind1">Somebody</format></line>
+                   <line n="4"><format wordType="italics" margin="ind1">Die?</format></line>
+               </stanza>
+           </body>
+        </poem>
+        <poem>
+            <poemTitle>Mystery</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">When a chile gets to be thirteen</line>
+                    <line n="2">and ain't seen Christ yet,</line>
+                    <line n="3">she needs to set on de moaner's bench</line>
+                    <line n="4">night and day.</line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="256"/>
+        <poem cont="continued">
+            <poemTitle>Mystery</poemTitle>
+            <body>
+                <stanza n="2">
+                    <line n="1"><format wordType="italics">Jesus, lover of my soul!</format></line>
+                    <line n="2">Hail, Mary, mother of God!</line>
+                    <line n="3"><format wordType="italics">Let me to thy bosom fly!</format></line>
+                    <line n="4">Amen! Hallelujah!</line>
+                </stanza>
+                <stanza n="3">
+                    <line n="1"><format wordType="italics">Swing low, sweet chariot,</format></line>
+                    <line n="2"><format wordType="italics">Coming for to carry me home.</format></line>
+                </stanza>
+                <stanza n="4">
+                    <line n="1">Sunday morning where the rhythm flows,</line>
+                    <line n="2">how old nobody knows --</line>
+                    <line n="3">yet old as mystery,</line>
+                    <line n="4">older than creed,</line>
+                    <line n="5">basic and wondering</line>
+                    <line n="6">and lost as my need.</line>
+                </stanza>
+                <stanza n="5">
+                    <line n="1"><format wordType="italics" margin="ind1">Eli, eli!</format></line>
+                    <line n="2"><format wordType="italics" margin="ind1">Te deum!</format></line>
+                    <line n="3"><format wordType="italics" margin="ind1">Mahomet!</format></line>
+                    <line n="4"><format wordType="italics" margin= "ind1">Christ!</format></line>
+                </stanza>
+                <stanza n="6">
+                    <line n="1">Father, Bishop, Effendi, Mother Horne.</line>
+                    <line n="2">Father Drive, a Rabbi black</line>
+                    <line n="3">as black was born</line>
+                    <line n="4">a jack-leg preacher, a PH.D.</line>
+                </stanza>
+                <stanza n="7">
+                    <line n="1"><format wordType="italics" margin="ind1">The mystery</format></line>
+                    <line n="2"><format wordType="italics" margin="ind1">and the darkness</format></line>
+                    <line n="3"><format wordType="italics" margin="ind1">and the song</format></line>
+                    <line n="4"><format wordType="italics" margin="ind1">and me.</format></line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="257"/>
+        <poem>
+            <poemTitle>Sliver of Sermon</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">When pimps out of loneliness cry:</line>
+                    <line n="2"><format wordType="italics" margin="ind1">Great God!</format></line>
+                    <line n="3">Whores in final weariness say:</line>
+                    <line n="4"><format wordType="italics" margin="ind1">Great God!</format></line>
+                    <line n="5"><format wordType="italics" margin="ind1">Oh, God!</format></line>
+                    <line n="6"><format wordType="italics" margin="ind1">My God!</format></line>
+                </stanza>
+                <stanza n="2">
+                    <line n="1"><format margin="ind1">Great</format></line>
+                    <line n="2"><format margin="ind1">God!</format></line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Testimonial</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">If I just had a piano,</line>
+                    <line n="2">if I just had a organ,</line>
+                    <line n="3">if I just had a drum,</line>
+                    <line n="4">how I could praise my Lord!</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="1">But I don't need no piano,</line>
+                    <line n="2"><format margin="ind1">neither organ</format></line>
+                    <line n="3"><format margin="ind1">nor drum</format></line>
+                    <line n="4">for to praise my Lord</line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Passing</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">On sunny summer Sunday afternoons in Harlem</line>
+                    <line n="2">when the air is one interminable ball game</line>
+                    <line n="3">and grandma cannot get her gospel hymns</line>
+                    <line n="4">from the Saints of God in Christ</line>
+                    <line n="5">on account of the Dodgers on the radio,</line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="258"/>
+        <poem cont="continued">
+            <poemTitle>Passing</poemTitle>
+            <body>
+                <stanza n="2">
+                    <line n="1">on sunny Sunday afternoons</line>
+                    <line n="2">when the kids look all new</line>
+                    <line n="3">and far too clean to stay that way,</line>
+                    <line n="4">and Harlem has its</line>
+                    <line n="5">washed-and-ironed-and-cleaned-best out,</line>
+                    <line n="6">the ones who've crossed the line</line>
+                    <line n="7">to live downtown</line>
+                    <line n="8">miss you,</line>
+                    <line n="9">Harlem of the bitter dream</line>
+                    <line n="10">since their dream has</line>
+                    <line n="11">come true.</line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Nightmare Boogie</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1"><format margin="ind1">I had a dream</format></line>
+                    <line n="2"><format margin="ind1">and I could see</format></line>
+                    <line n="3"><format margin="ind1">a million faces</format></line>
+                    <line n="4"><format margin="ind1">black as me!</format></line>
+                    <line n="5"><format margin="ind1">A nightmare dream:</format></line>
+                    <line n="6"><format wordType="italics" margin="ind1">Quicker than light</format></line>
+                    <line n="7"><format wordType="italics" margin="ind1">All them faces</format></line>
+                    <line n="8"><format wordType="italics" margin="ind1">Turned dead white|</format></line>
+                    <line n="9"><format margin="ind1">Boogie-woogie,</format></line>
+                    <line n="10"><format margin="ind1">Rolling bass,</format></line>
+                    <line n="11"><format margin="ind1">Whirling treble</format></line>
+                    <line n="12"><format margin="ind1">of cat-gut lace.</format></line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="259"/>
+        <poem>
+            <poemTitle>Sunday by the Combination</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">I feel like dancin', baby,</line>
+                    <line n="2">till the sun goes down.</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="1">But I wonder where</line>
+                    <line n="2">the sunrise</line>
+                    <line n="3">Monday morning's gonna be?</line>
+                </stanza>
+                <stanza n="3">
+                    <line n="1">I feel like dancin'!</line>
+                    <line n="2">Baby, dance with me!</line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle><format wordType="circled">Casualty</format></poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">He was a soldier in the army,</line>
+                    <line n="2">But he doesn't walk like one.</line>
+                    <line n="3">He walks like his soldiering <format wordType="handwritten">* <!-- jkc: I don't know what is written here --></format></line>
+                    <line n="4">Days are done.</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="1">Son! ... Son!</line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Night Funeral in Harlem</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1"><format margin="ind1">Night funeral</format></line>
+                    <line n="2"><format margin="ind1">In Harlem:</format></line>
+                </stanza>
+                <stanza n="2">
+                    <line n="1"><format wordType="italics" margin="ind1">Where did they get</format></line>
+                    <line n="2"><format wordType="italics" margin="ind1">Them two fine cars?</format></line>
+                </stanza>
+                <stanza n="3">
+                    <line n="1">Insurance man, he did not pay -- </line>
+                    <line n="2">His insurance lapsed the other day -- </line>
+                </stanza>
+            </body>
+        </poem>
+    </text>
+</xml>

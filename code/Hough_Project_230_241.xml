@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="MontageofADreamDeferred.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="MontageofADreamDeferred.rnc" margin="application/relax-ng-compact-syntax"?>
 <xml>
     <text>
         <pb pNum="230"/>
@@ -9,18 +9,18 @@
                 <stanza n="1">
                     <line n="1">The Roosevelt, Renaissance, Gem, Alhambra:</line>
                     <line n="2">Harlem Laughing in all the wrong places</line>
-                    <line n="3"><format type="indent">at the crocodile tears</format></line>
-                    <line n="4"><format type="indent">of crocodile art</format></line>
-                    <line n="5"><format type="indent">that you know</format></line>
-                    <line n="6"><format type="indent">in your heart</format></line> 
-                    <line n="7"><format type="indent">is crocodile:</format></line>
+                    <line n="3"><format margin="ind1">at the crocodile tears</format></line>
+                    <line n="4"><format margin="ind1">of crocodile art</format></line>
+                    <line n="5"><format margin="ind1">that you know</format></line>
+                    <line n="6"><format margin="ind1">in your heart</format></line> 
+                    <line n="7"><format margin="ind1">is crocodile:</format></line>
                 </stanza>
                 <stanza n="2"> 
-                    <line n="8"><format type="indent">(Hollywood</format></line>
-                    <line n="9"><format type="indent">laughs at me,</format></line> 
-                    <line n="10"><format type="indent">black--</format></line>
-                    <line n="11"><format type="indent">so I laugh</format></line>
-                    <line n="12"><format type="indent">back.)</format></line>
+                    <line n="8"><format margin="ind1">(Hollywood</format></line>
+                    <line n="9"><format margin="ind1">laughs at me,</format></line> 
+                    <line n="10"><format margin="ind1">black--</format></line>
+                    <line n="11"><format margin="ind1">so I laugh</format></line>
+                    <line n="12"><format margin="ind1">back.)</format></line>
                 </stanza>
             </body>
         </poem>
@@ -32,8 +32,8 @@
                     <line n="1">Why should it be<format wordType="italics">my</format>loneliness,</line>
                     <line n="2">Why should it be<format wordType="italics">my</format>song,</line>
                     <line n="3">Why should it be<format wordType="italics">my</format>dream</line>
-                    <line n="4"><format type="indent">deferred</format></line>
-                    <line n="5"><format type="indent">overlong?</format></line>
+                    <line n="4"><format margin="ind1">deferred</format></line>
+                    <line n="5"><format margin="ind1">overlong?</format></line>
                 </stanza>
             </body>
         </poem>
@@ -80,7 +80,7 @@
             </body>
         </poem>
         <pb pNum="233"/>
-        <poem cont="previous">
+        <poem cont="continued">
             <poemTitle>Neon Signs</poemTitle>
             <body>
                 <stanza n="1">
@@ -107,7 +107,7 @@
                 </stanza>
                 <stanza n="3">
                     <line n="6">(Of course, I might</line>
-                    <line n="7">combinate<format type="italics">a little</format></line>
+                    <line n="7">combinate<format wordType="italics">a little</format></line>
                     <line n="8">with my rent.)</line>
                 </stanza>
             </body>
@@ -122,7 +122,7 @@
             </body>
         </poem>
         <pb pNum="234"/>
-        <poem cont="previous">
+        <poem cont="continued">
             <poemTitle>What? So Soon!</poemTitle>
             <body>
                 <stanza n="1">
@@ -132,11 +132,11 @@
                     <line n="6">cullud nation!</line>
                 </stanza>
                 <stanza n="2">
-                    <line n="7"><format type="indent" wordType="italics">Comment against Lamp Post</format></line>
+                    <line n="7"><format margin="ind1" wordType="italics">Comment against Lamp Post</format></line>
                     <line n="8"><format wordType="italics">You call it fate?</format></line>
                 </stanza>
                 <stanza n="3">
-                    <line n="9"><format type="indent" wordType="italics">Figurette</format></line>
+                    <line n="9"><format margin="ind1" wordType="italics">Figurette</format></line>
                     <line n="10"><format wordType="italics">De-daddle-dy!</format></line>
                     <line n="11"><format wordType="italics">De-dop!</format></line>
                 </stanza>
@@ -154,7 +154,7 @@
                 <stanza n="2">
                     <line n="5">My motto,</line>
                     <line n="6">As I live and learn,</line>
-                    <line n="7"><format type="indent">is:</format></line>
+                    <line n="7"><format margin="ind1">is:</format></line>
                     <line n="8"><format wordType="italics">Dig and Be Dug</format></line>
                     <line n="9"><format wordType="italics">In Return</format></line>
                 </stanza>
@@ -225,14 +225,14 @@
                     <line n="7">He was no good at making love</line>
                     <line n="8">and no good at making money.</line>
                     <line n="9">So he tapped,</line>
-                    <line n="10"><format type="indent">trucked,</format></line>
-                    <line n="11"><format type="indent">boogied,</format></line>
-                    <line n="12"><format type="indent">sanded,</format></line>
-                    <line n="13"><format type="indent">jittered,</format></line>
+                    <line n="10"><format margin="ind1">trucked,</format></line>
+                    <line n="11"><format margin="ind1">boogied,</format></line>
+                    <line n="12"><format margin="ind1">sanded,</format></line>
+                    <line n="13"><format margin="ind1">jittered,</format></line>
                     <line n="14">until he made folks say,</line>
-                    <line n="15"><format type="indent" wordType="italics">Looky yonder</format></line>
-                    <line n="16"><format type="indent" wordType="italics">at that boy!</format></line>
-                    <line n="15"><format type="indent" wordType="italics">Hey!</format></line>
+                    <line n="15"><format margin="ind1" wordType="italics">Looky yonder</format></line>
+                    <line n="16"><format margin="ind1" wordType="italics">at that boy!</format></line>
+                    <line n="15"><format margin="ind1" wordType="italics">Hey!</format></line>
                     <line n="16">But being no good at lovin'--</line>
                     <line n="17">the girls left him.</line>
                     <line n="18">(When you're no good for dough they go.)</line>
@@ -268,9 +268,9 @@
                     <line n="1">A wonderful time--the War:</line>
                     <line n="2">when money rolled in</line>
                     <line n="3">and blood rolled out.</line>
-                    <line n="4"><format type="indent">But blood</format></line>
-                    <line n="5"><format type="indent">was far away</format></line>
-                    <line n="4"><format type="indent">from here--</format></line>
+                    <line n="4"><format margin="ind1">But blood</format></line>
+                    <line n="5"><format margin="ind1">was far away</format></line>
+                    <line n="4"><format margin="ind1">from here--</format></line>
                     <line n="5">Money was near.</line>
                 </stanza>
             </body>

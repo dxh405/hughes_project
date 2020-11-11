@@ -7,7 +7,7 @@
 <xml>
     <text>
         <pb pNum="266"/>
-       <poem cont="previous">
+       <poem cont="continued">
            <poemTitle>Brothers</poemTitle>
            <body>
                <stanza n="4">
@@ -30,7 +30,7 @@
                     <line n="4">Fruits</line>
                     <line n="5">Watches</line>
                     <line n="6">Diamond rings</line>
-                    <line n="7">THE DAILY NEWS</line>
+                    <line n="7"><format wordType="caps">THE DAILY NEWS</format></line>
                 </stanza>
                 <stanza n="3">
                     <line n="8">Jews sell me things.</line>
@@ -54,7 +54,7 @@
         </poem>
         
         <pb pNum="267"/>
-        <poem cont="previous">
+        <poem cont="continued">
             <poemTitle>Likewise</poemTitle>
             <body>
                 <stanza n="5">
