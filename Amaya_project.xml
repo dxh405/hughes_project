@@ -111,7 +111,7 @@
         </body>
         </poem>
     <pb pNum="223"/>
-        <poem cont="previous">
+        <poem cont="continued">
         <poemTitle>Parade</poemTitle>
             <body><stanza n="6">
                 <line n="28"><format margin="ind1">A chance to let</format></line>
@@ -158,7 +158,7 @@
             </stanza>
         </body></poem>
     <pb pNum="224"/>
-        <poem cont="previous">
+        <poem cont="continued">
             <poemTitle>Children's Rhymes</poemTitle>
             <body><stanza n="5">
                 <line n="17">Some of these young ones us cert'ly bad-</line>
@@ -204,7 +204,7 @@
             </stanza>
         </body></poem>
     <pb pNum="225"/>
-        <poem cont="previous">
+        <poem cont="continued">
             <poemTitle>Sister</poemTitle>
             <body><stanza n="4">
                 <line n="9"><format wordType="italics" margin="ind1">Unfortunately usually no!</format></line>
@@ -347,7 +347,7 @@
             </stanza>
         </body></poem>
     <pb pNum="229"/>
-        <poem cont="previous">
+        <poem cont="continued">
             <poemTitle>New Yorkers</poemTitle>
             <body><stanza n="2">
                 <line n="4"><format wordType="italics">I wasn't born here, she said,</format></line>
