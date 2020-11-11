@@ -1,7 +1,7 @@
 start = element xml{\text}
 #meta =element meta {mainTitle,collectionTitle,publisher,notes*}
 #mainTitle = element mainTitle{text}
-subtitle = element subtitle {text}
+#subtitle = element subtitle {text}
 #publisher = element publisher {text, location}
 #location = element location {place}
 #place = attribute place {text}
