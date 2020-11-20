@@ -102,9 +102,91 @@
             <poemTitle>Dream Boogie: Variation</poemTitle>
             <body>
                 <stanza n="1">
-                    <line n="1"></line>
+                    <line n="1">Tinkling treble,</line>
+                    <line n="2">Rolling bass,</line>
+                    <line n="3">High noon teeth</line>
+                    <line n="4">In a midnight face,</line>
+                    <line n="5">Great long fingers</line>
+                    <line n="6">On great big hands,</line>
+                    <line n="7">Screaming pedals</line>
+                    <line n="8">Where his twelve-shoe lands,</line>
+                    <line n="9">Looks like his eyes</line>
+                    <line n="10">Are teasing pain,</line>
+                    <line n="11">A few minutes late</line>
+                    <line n="12">For the Freedom Train.</line>
                 </stanza>
             </body>
         </poem>
+        <poem>
+            <poemTitle>Harlem</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">What happens to a dream deffered?</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="2">Does it dry up</line>
+                    <line n="3">like a raisin in the sun?</line>
+                    <line n="4">Or fester like a sore-</line>
+                    <line n="5">And then run?</line>
+                    <line n="6">Does it stink like rotten meat?</line>
+                    <line n="7">Or crust and sugar over-</line>
+                    <line n="8">like a syrupy sweet?</line>
+                </stanza>
+                <stanza n="3">
+                    <line n="9">Maybe it just sags</line>
+                    <line n="10">like a heavy load.</line>
+                </stanza>
+                <stanza n="4">
+                    <line n="11"><format wordType="italics">Or does it explode?</format></line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="269"/>
+        <poem>
+            <poemTitle>Good Morning</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">Good morning, daddy!</line>
+                    <line n="2">I was born here, he said,</line>
+                    <line n="3">watched Harlem grow</line>
+                    <line n="4">until colored folks spread</line>
+                    <line n="5">from river to river</line>
+                    <line n="6">across the middle of Manhatten</line>
+                    <line n="7">out of Penn Station</line>
+                    <line n="8">dark tenth of a nation,</line>
+                    <line n="9">planes from Puerto Rico</line>
+                    <line n="10">and holds of boats, chico,</line>
+                    <line n="11">up from Cuba Haiti Jamaica</line>
+                    <line n="12">in buses marked New York</line>
+                    <line n="13">from Georgia Florida Louisiana</line>
+                    <line n="14">to Harlem Brookly the Bronx</line>
+                    <line n="15">but most of all to Harlem</line>
+                    <line n="16">dusky sash across Manhattan</line>
+                    <line n="17">I've seen them come dark</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="18">wondering</line>
+                    <line n="19">wide-eyed</line>
+                    <line n="20">dreaming</line>
+                </stanza>
+                <stanza n="3">
+                    <line n="21">out of Penn Station-</line>
+                    <line n="22">but the trains are late.</line>
+                    <line n="23">The gates open-</line>
+                    <line n="24">but the trains are late.</line>
+                    <line n="25">The gates open-</line>
+                    <line n="26">Yet there're bars</line>
+                    <line n="27">at each gate.</line>
+                </stanza>
+                <stanza n="4">
+                    <line n="28">What happens</line>
+                    <line n="29">to a dream deferred?</line>
+                </stanza>
+                <stanza n="5">
+                    <line n="30">Daddy, ain't you heard?</line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="270"/>
     </text>
 </xml>
