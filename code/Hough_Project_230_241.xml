@@ -125,17 +125,17 @@
         <poem cont="continued">
             <poemTitle>What? So Soon!</poemTitle>
             <body>
-                <stanza n="1">
+                <stanza n="2">
                     <line n="3">Fate must have</line>
                     <line n="4">some kind of trickeration</line>
                     <line n="5">to populate the</line>
                     <line n="6">cullud nation!</line>
                 </stanza>
-                <stanza n="2">
+                <stanza n="3">
                     <line n="7"><format margin="ind1" wordType="italics">Comment against Lamp Post</format></line>
                     <line n="8"><format wordType="italics">You call it fate?</format></line>
                 </stanza>
-                <stanza n="3">
+                <stanza n="4">
                     <line n="9"><format margin="ind1" wordType="italics">Figurette</format></line>
                     <line n="10"><format wordType="italics">De-daddle-dy!</format></line>
                     <line n="11"><format wordType="italics">De-dop!</format></line>
@@ -287,6 +287,182 @@
                     <line n="6">Soaking up a new souse.</line>
                     <line n="7">Tomorrow...</line>
                     <line n="8">Oh, hum!</line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="238"/>
+        <poem>
+            <poemTitle>Relief</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">My heart is aching</line>
+                    <line n="2">for them Poles and Greeks</line>
+                    <line n="3">on relief way across the sea</line>
+                    <line n="4">because I was on relief</line>
+                    <line n="5">once in 1933</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="6">I know what relief can be--</line>
+                    <line n="7">it took me two years to get on WPA.</line>
+                    <line n="8">If the war hadn't come along</line>
+                    <line n="9">I wouldn't be out the barrel yet.</line>
+                    <line n="10">Now, I'm almost back in the barrel again.</line>
+                </stanza>
+                <stanza n="3">
+                    <line n="11">To tell the truth,</line>
+                    <line n="12">if these white folks want to go ahead</line>
+                    <line n="13">and fight another war,</line>
+                    <line n="14">or even two,</line>
+                    <line n="15">the one to stop 'em won't be me.</line>
+                </stanza>
+                <stanza n="3">
+                    <line n="16">Would you?</line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Ballad of the Landlord</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">Landlord, landlord,</line>
+                    <line n="2">My roof has sprung a leak.</line>
+                    <line n="3">Don't you 'member I told you about it</line>
+                    <line n="4">Way last week?</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="5">Landlord, landlord</line>
+                    <line n="6">These steps is broken down.</line>
+                    <line n="7">When you come up yourself</line>
+                    <line n="8">It's a wonder you don't fall down</line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="239"/>
+        <poem cont="continued">
+            <poemTitle>Ballad of the Landlord</poemTitle>
+            <body>
+                <stanza n="3">
+                    <line n="9">Ten Bucks you say I owe you?</line>
+                    <line n="10">Ten Bucks you say is due?</line>
+                    <line n="11">Well, that's Ten Bucks more'n I'll pay you</line>
+                    <line n="12">Till you fix this house up new.</line>
+                </stanza>
+                <stanza n="4">
+                    <line n="13">What? You gonna get eviction orders?</line>
+                    <line n="14">You gonna cut off my heat?</line>
+                    <line n="15">You gonna take my furniture and</line>
+                    <line n="16">Throw it in the street?</line>
+                </stanza>
+                <stanza n="5">
+                    <line n="17">Um-huh! You talking high and mighty.</line>
+                    <line n="18">Talk on--till you get through.</line>
+                    <line n="19">You ain't gonna be able to say a word</line>
+                    <line n="20">If I land my fist on you.</line>
+                </stanza>
+                <stanza n="6">
+                    <line n="21"><format wordType="italics">Police! Police!</format></line>
+                    <line n="22"><format wordType="italics">Come get this man!</format></line>
+                    <line n="23"><format wordType="italics">He's trying to ruin the government</format></line>
+                    <line n="24"><format wordType="italics">And overturn the land!</format></line>
+                </stanza>
+                <stanza n="7">
+                    <line n="25">Copper's whistle!</line>
+                    <line n="26">Patrol Bell!</line>
+                    <line n="27">Arrest.</line>
+                </stanza>
+                <stanza n="8">
+                    <line n="28">Precinct Station.</line>
+                    <line n="29">Iron cell.</line>
+                    <line n="30">Headlines in press:</line>
+                </stanza>
+                <stanza n="9">
+                    <line n="31">MAN THREATENS LANDLORD</line>
+                    <line n="32">TENANT HELD ON BAIL</line>
+                    <line n="33">JUDGE GIVE NEGRO 90 DAYS IN COUNTY JAIL</line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="240"/>
+        <poem>
+            <poemTitle>Corner Meeting</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1"><format margin="ind1">Ladder, flag, and amplifier</format></line>
+                    <line n="2"><format margin="ind1">what the soap box</format></line>
+                    <line n="3"><format margin="ind1">used to be</format></line>
+                    <line n="4"><format margin="ind1">The speaker catches fire</format></line>
+                    <line n="5"><format margin="ind1">looking at their faces.</format></line>
+                    <line n="6"><format margin="ind1">His words</format></line>
+                    <line n="7"><format margin="ind1">jump down to stand</format></line>
+                    <line n="8"><format margin="ind1">in listeners' places.</format></line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Projection</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">On the day when the Savoy</line>
+                    <line n="2">leaps clean over to Seventh Avenue</line>
+                    <line n="3">and starts jitterbugging</line>
+                    <line n="4">with the Renaissance,</line>
+                    <line n="5">on that day when Abyssinia Baptist Church</line>
+                    <line n="6">throws her enormous arms around</line>
+                    <line n="7">St. James Presbyterian</line>
+                    <line n="8">and 409 Edgecombe</line>
+                    <line n="9">stoops to kiss 12 West 133rd,</line>
+                    <line n="10">on that day--</line>
+                    <line n="11">Do, Jesus!</line>
+                    <line n="12">Manhattan Island will whirl</line>
+                    <line n="13">like a Dizzy Gillespie transcription</line>
+                    <line n="14">played by Inez and Timmie.</line>
+                    <line n="15">On that day, Lord,</line>
+                    <line n="16">Sammy Davis and Marian Anderson</line>
+                    <line n="17">will sing a duet</line>
+                    <line n="18">Paul Robeson</line>
+                    <line n="19">will team up with Jackie Mabley</line>
+                    <line n="20">and Father Divine will say in truth,</line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="241"/>
+        <poem cont="continued">
+            <poemTitle>Projection</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="21"><format wordType="italics">Peace!</format></line>
+                    <line n="22"><format wordType="italics">It's truly</format></line>
+                    <line n="23"><format wordType="italics">wonderful!</format></line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Flatted Fifths</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">Little cullud boys with beards</line>
+                    <line n="2">re-bop be-bop mop and stop</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="3">Little cullud boys with fears,</line>
+                    <line n="4">frantic, kick their draftee years</line>
+                    <line n="5">into flatted and flatter beers</line>
+                    <line n="6">that at a sudden change become</line>
+                    <line n="7">sparkling Oriental wines</line>
+                    <line n="8">rich and strange</line>
+                    <line n="9">silken bathrobes with gold twines</line>
+                    <line n="10">and Heilbroner, Crawford,</line>
+                    <line n="11">Nat-undreamed-of Lewis combines</line>
+                    <line n="12">in silver thread and diamond notes</line>
+                    <line n="13">on trade-marks inside</line>
+                    <line n="14">Howard coats</line>
+                </stanza>
+                <stanza n="3">
+                    <line n="15">Little cullud boys in berets</line>
+                    <line n="16"><format margin="ind1" wordType="italics">oop pop-a-da</format></line>
+                    <line n="17">horse a fantasy of days</line>
+                    <line n="18"><format margin="ind1" wordType="italics">ool ya koo</format></line>
+                    <line n="19">and dig all plays.</line>
                 </stanza>
             </body>
         </poem>
