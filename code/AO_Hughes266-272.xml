@@ -188,5 +188,140 @@
             </body>
         </poem>
         <pb pNum="270"/>
+        <poem>
+            <poemTitle>Same in Blues</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">I said to my baby,</line>
+                    <line n="2">Baby, take it slow.</line>
+                    <line n="3">I can't, she said, I can't!</line>
+                    <line n="4">I got to go!</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="5"><format wordType="italics">There's a certain</format></line>
+                    <line n="6"><format wordType="italics">amount of traveling</format></line>
+                    <line n="7"><format wordType="italics">in a dream deferred.</format></line>
+                </stanza>
+                <stanza n="3">
+                    <line n="8">Lulu said to leonard,</line>
+                    <line n="9">I want a diamond ring.</line>
+                    <line n="10">Leonard said to Lulu,</line>
+                    <line n="11">You won't get a goddamn thing!</line>
+                </stanza>
+                <stanza n="4">
+                    <line n="12"><format wordType="italics">A certain</format></line>
+                    <line n="13"><format wordType="italics">amount of nothing</format></line>
+                    <line n="14"><format wordType="italics">in a dream deferrred.</format></line>
+                </stanza>
+                <stanza n="5">
+                    <line n="15">Daddy, daddy, daddy,</line>
+                    <line n="16">All I want is you.</line>
+                    <line n="17">You can have me, baby-</line>
+                    <line n="18">but my lovin' days is through.</line>
+                </stanza>
+                <stanza n="6">
+                    <line n="19"><format wordType="italics">A certain</format></line>
+                    <line n="20"><format wordType="italics">amount of impotence</format></line>
+                    <line n="21"><format wordType="italics">in a dream deferrred.</format></line>
+                </stanza>
+                <stanza n="7">
+                    <line n="22">Three parties</line>
+                    <line n="23">On my party line-</line>
+                    <line n="24">But that third party,</line>
+                    <line n="25">Lord, ain't mine!</line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="271"/>
+        <poem cont="continued">
+            <poemTitle></poemTitle>
+            <body>
+                <stanza n="8">
+                    <line n="26"><format wordType="italics">There's liable</format></line>
+                    <line n="27"><format wordType="italics">to be confusion</format></line>
+                    <line n="28"><format wordType="italics">in a dream deferred.</format></line>
+                </stanza>
+                <stanza n="9">
+                    <line n="29">From river to river,</line>
+                    <line n="30">Uptown and Down,</line>
+                    <line n="31">There's liable to be confusion</line>
+                    <line n="32">when a dream gets kicked around.</line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Comment on Curb</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">You talk like</line>
+                    <line n="2">They don't kick</line>
+                    <line n="3">dreams around</line>
+                    <line n="4">downtown.</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="5"><format wordType="italics">I expect they do-</format></line>
+                    <line n="6"><format wordType="italics">But I'm talking about</format></line>
+                    <line n="7"><format wordType="italics">Harlem to you!</format></line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Letter</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1"><format wordType="italics">Dear Mama,</format></line>
+                    <line n="2"><format wordType="italics">Time I pay rent and get my food</format></line>
+                    <line n="3"><format wordType="italics">and laundry I don't have much left</format></line>
+                    <line n="4"><format wordType="italics">but here is five dollars for you</format></line>
+                    <line n="5"><format wordType="italics">to show you I still appreciates you.</format></line>
+                    <line n="6"><format wordType="italics">My girl-friend send her love and say</format></line>
+                    <line n="7"><format wordType="italics">she hopes to lay eyes on you sometime in life.</format></line>
+                </stanza>
+            </body>
+        </poem>
+        <pb pNum="272"/>
+        <poem cont="continued">
+            <poemTitle></poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="8"><format wordType="italics">Mama, it has been raining cats and dogs up</format></line>
+                    <line n="8"><format wordType="italics">here. Well, that is all so I will close.</format></line>
+                    <line n="8"><format wordType="italics">Your son baby</format></line>
+                    <line n="8"><format wordType="italics">Respectably as ever,</format></line>
+                    <line n="8"><format wordType="italics">Joe</format></line>
+                </stanza>
+            </body>
+        </poem>
+        <poem>
+            <poemTitle>Island</poemTitle>
+            <body>
+                <stanza n="1">
+                    <line n="1">Between two rivers,</line>
+                    <line n="2">North of the park,</line>
+                    <line n="3">Like darker rivers</line>
+                    <line n="4">The streets are dark.</line>
+                </stanza>
+                <stanza n="2">
+                    <line n="5">Black and white,</line>
+                    <line n="6">Gold and brown-</line>
+                    <line n="7">Chocolate-custard</line>
+                    <line n="8">Pie of a town.</line>
+                </stanza>
+                <stanza n="3">
+                    <line n="9"><format wordType="italics">Dream within a dream,</format></line>
+                    <line n="10"><format wordType="italics">Our dream deferred.</format></line>
+                </stanza>
+                <stanza n="4">
+                    <line n="11">Good morning, daddy!</line>
+                </stanza>
+                <stanza n="5">
+                    <line n="12">Ain't you heard?</line>
+                </stanza>
+            </body>
+        </poem>
+        <!--AMO: page is un-numbered but IS 273--><pb pNum="273"/>
+        <title>
+            <format>WORDS LIKE FREEDOM</format>
+        </title>
     </text>
 </xml>
