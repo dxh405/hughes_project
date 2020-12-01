@@ -11,6 +11,7 @@
             <head>
                 <title>Montage of A Dream Deferred</title>
                 <link rel="stylesheet" type="text/css" href="hughproject.css"/>
+                <link rel="stylesheet" type="text/css" href="chanXSLTexercise3.css" />
                 <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jkx1xou.css" />
                 <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jkx1xou.css" />
                 <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jkx1xou.css" />
