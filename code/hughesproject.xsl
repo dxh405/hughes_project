@@ -12,9 +12,6 @@
                 <title>Montage of A Dream Deferred</title>
                 <link rel="stylesheet" type="text/css" href="hughproject.css"/>
                 <link rel="stylesheet" type="text/css" href="chanXSLTexercise3.css" />
-                <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jkx1xou.css" />
-                <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jkx1xou.css" />
-                <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jkx1xou.css" />
             </head>
             <body>
                 <h1>MONTAGE OF A DREAM DEFFERED</h1>
@@ -45,10 +42,24 @@
     </xsl:template>
     <xsl:template match="poem">
         <h2><xsl:apply-templates select="descendant::poemTitle"/></h2>
-        <xsl:for-each select="descendant::line">
-            <p><xsl:apply-templates/></p><br/>
-        </xsl:for-each>
+        <xsl:apply-templates select="descendant::line"/>
     </xsl:template>
+    
+ <xsl:template match="line">
+     <p>
+        <xsl:analyze-string select="." regex="dream deferred">
+           <xsl:matching-substring> 
+               <span class="motif"><xsl:value-of select="."/></span>
+           </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:apply-templates select="."/>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+     </p>
+     
+ </xsl:template>
+    
+    
     <xsl:template match="format[@wordType='italics']">
         <em>
             <xsl:apply-templates/>
