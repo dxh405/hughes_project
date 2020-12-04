@@ -227,19 +227,19 @@
         <body>
             <stanza n="1">
                 <line n="1">I likes a woman</line>
-                <line n="1">six or eight and ten years older'n myself.</line>
-                <line n="1">I don't fool with these young girls.</line>
-                <line n="1">Young girl'll say,</line>
-                <line n="1"><format wordType="italics" margin="ind1">Daddy, I want so-and-so.</format></line>
-                <line n="1"><format wordType="italics" margin="ind1">I needs this, that, and the other.</format></line>
-                <line n="1">But a old woman'll say,</line>
-                <line n="1"><format wordType="italics" margin="ind1">Honey, what does YOU need?</format></line><!--AW: Can I use the same element within itself? I had been using `<format wordType="caps>` for words in all capital letters, but in this case the word in caps is within an already formatted line.-->
-                <line n="1"><format wordType="italics" margin="ind1">I just drawed my money tonight</format></line>
-                <line n="1"><format wordType="italics" margin="ind1">and it's all your'n</format></line>
-                <line n="1">That's why I likes a older woman</line>
-                <line n="1">who can appreciate me:</line>
-                <line n="1">When she conversations you</line>
-                <line n="1">it ain't forever, <format wordType="italics">Gimme!</format></line>
+                <line n="2">six or eight and ten years older'n myself.</line>
+                <line n="3">I don't fool with these young girls.</line>
+                <line n="4">Young girl'll say,</line>
+                <line n="5"><format wordType="italics" margin="ind1">Daddy, I want so-and-so.</format></line>
+                <line n="6"><format wordType="italics" margin="ind1">I needs this, that, and the other.</format></line>
+                <line n="7">But a old woman'll say,</line>
+                <line n="8"><format wordType="italics" margin="ind1">Honey, what does YOU need?</format></line><!--AW: Can I use the same element within itself? I had been using `<format wordType="caps>` for words in all capital letters, but in this case the word in caps is within an already formatted line.-->
+                <line n="9"><format wordType="italics" margin="ind1">I just drawed my money tonight</format></line>
+                <line n="10"><format wordType="italics" margin="ind1">and it's all your'n</format></line>
+                <line n="11">That's why I likes a older woman</line>
+                <line n="12">who can appreciate me:</line>
+                <line n="13">When she conversations you</line>
+                <line n="14">it ain't forever, <format wordType="italics">Gimme!</format></line>
             </stanza>
         </body></poem>
     <pb pNum="226"/>
@@ -906,7 +906,7 @@
                     <line n="2">A stick . . </line>
                     <line n="3">A roach . . </line>
                     <line n="4">Straw . . </line>
-                    <line n="7">more thrilling.</line>
+                    <line n="5">more thrilling.</line>
                 </stanza>
             </body>
         </poem>
@@ -938,9 +938,9 @@
                 </stanza>
                 
                 <stanza n="2">
-                    <line n="7">Police lady or Lesbian</line>
-                    <line n="6"> over there?</line>
-                    <line n="6"><format margin="ind1">Where?</format></line>
+                    <line n="8">Police lady or Lesbian</line>
+                    <line n="9"> over there?</line>
+                    <line n="10"><format margin="ind1">Where?</format></line>
                 </stanza>
             </body>
         </poem>
@@ -973,8 +973,8 @@
                     <line n="5">Except on holidays.</line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1">A movie house in Harlem named after Lincoln,</line>
-                    <line n="2">Nothing at all named after John Brown.</line>
+                    <line n="6">A movie house in Harlem named after Lincoln,</line>
+                    <line n="7">Nothing at all named after John Brown.</line>
                 </stanza>
             </body>
         </poem>
@@ -983,12 +983,12 @@
             <poemTitle>Shame on You</poemTitle>
             <body>
                 <stanza n="3">
-                    <line n="1">Black people don't remember</line>
-                    <line n="2">any better than white</line>
+                    <line n="8">Black people don't remember</line>
+                    <line n="9">any better than white</line>
                 </stanza>
                 <stanza n="4">
-                    <line n="1">If you're not alive and kicking,</line>
-                    <line n="2"><format wordType="italics">shame on you!</format></line>
+                    <line n="10">If you're not alive and kicking,</line>
+                    <line n="11"><format wordType="italics">shame on you!</format></line>
                 </stanza>
             </body>
         </poem>
@@ -1006,10 +1006,10 @@
                    <line n="8"><format margin="ind1">My, my!</format></line>
                </stanza>
                <stanza n="2">
-                   <line n="1">Echo:</line>
-                   <line n="2"><format wordType="italics" margin="ind1">Did</format></line>
-                   <line n="3"><format wordType="italics" margin="ind1">Somebody</format></line>
-                   <line n="4"><format wordType="italics" margin="ind1">Die?</format></line>
+                   <line n="9">Echo:</line>
+                   <line n="10"><format wordType="italics" margin="ind1">Did</format></line>
+                   <line n="11"><format wordType="italics" margin="ind1">Somebody</format></line>
+                   <line n="12"><format wordType="italics" margin="ind1">Die?</format></line>
                </stanza>
            </body>
         </poem>
@@ -1029,40 +1029,40 @@
             <poemTitle>Mystery</poemTitle>
             <body>
                 <stanza n="2">
-                    <line n="1"><format wordType="italics">Jesus, lover of my soul!</format></line>
-                    <line n="2">Hail, Mary, mother of God!</line>
-                    <line n="3"><format wordType="italics">Let me to thy bosom fly!</format></line>
-                    <line n="4">Amen! Hallelujah!</line>
+                    <line n="5"><format wordType="italics">Jesus, lover of my soul!</format></line>
+                    <line n="6">Hail, Mary, mother of God!</line>
+                    <line n="7"><format wordType="italics">Let me to thy bosom fly!</format></line>
+                    <line n="8">Amen! Hallelujah!</line>
                 </stanza>
                 <stanza n="3">
-                    <line n="1"><format wordType="italics">Swing low, sweet chariot,</format></line>
-                    <line n="2"><format wordType="italics">Coming for to carry me home.</format></line>
+                    <line n="9"><format wordType="italics">Swing low, sweet chariot,</format></line>
+                    <line n="10"><format wordType="italics">Coming for to carry me home.</format></line>
                 </stanza>
                 <stanza n="4">
-                    <line n="1">Sunday morning where the rhythm flows,</line>
-                    <line n="2">how old nobody knows --</line>
-                    <line n="3">yet old as mystery,</line>
-                    <line n="4">older than creed,</line>
-                    <line n="5">basic and wondering</line>
-                    <line n="6">and lost as my need.</line>
+                    <line n="11">Sunday morning where the rhythm flows,</line>
+                    <line n="12">how old nobody knows --</line>
+                    <line n="13">yet old as mystery,</line>
+                    <line n="14">older than creed,</line>
+                    <line n="15">basic and wondering</line>
+                    <line n="16">and lost as my need.</line>
                 </stanza>
                 <stanza n="5">
-                    <line n="1"><format wordType="italics" margin="ind1">Eli, eli!</format></line>
-                    <line n="2"><format wordType="italics" margin="ind1">Te deum!</format></line>
-                    <line n="3"><format wordType="italics" margin="ind1">Mahomet!</format></line>
-                    <line n="4"><format wordType="italics" margin= "ind1">Christ!</format></line>
+                    <line n="17"><format wordType="italics" margin="ind1">Eli, eli!</format></line>
+                    <line n="18"><format wordType="italics" margin="ind1">Te deum!</format></line>
+                    <line n="19"><format wordType="italics" margin="ind1">Mahomet!</format></line>
+                    <line n="20"><format wordType="italics" margin= "ind1">Christ!</format></line>
                 </stanza>
                 <stanza n="6">
-                    <line n="1">Father, Bishop, Effendi, Mother Horne.</line>
-                    <line n="2">Father Drive, a Rabbi black</line>
-                    <line n="3">as black was born</line>
-                    <line n="4">a jack-leg preacher, a PH.D.</line>
+                    <line n="21">Father, Bishop, Effendi, Mother Horne.</line>
+                    <line n="22">Father Drive, a Rabbi black</line>
+                    <line n="23">as black was born</line>
+                    <line n="24">a jack-leg preacher, a PH.D.</line>
                 </stanza>
                 <stanza n="7">
-                    <line n="1"><format wordType="italics" margin="ind1">The mystery</format></line>
-                    <line n="2"><format wordType="italics" margin="ind1">and the darkness</format></line>
-                    <line n="3"><format wordType="italics" margin="ind1">and the song</format></line>
-                    <line n="4"><format wordType="italics" margin="ind1">and me.</format></line>
+                    <line n="25"><format wordType="italics" margin="ind1">The mystery</format></line>
+                    <line n="26"><format wordType="italics" margin="ind1">and the darkness</format></line>
+                    <line n="27"><format wordType="italics" margin="ind1">and the song</format></line>
+                    <line n="28"><format wordType="italics" margin="ind1">and me.</format></line>
                 </stanza>
             </body>
         </poem>
@@ -1079,8 +1079,8 @@
                     <line n="6"><format wordType="italics" margin="ind1">My God!</format></line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1"><format margin="ind1">Great</format></line>
-                    <line n="2"><format margin="ind1">God!</format></line>
+                    <line n="7"><format margin="ind1">Great</format></line>
+                    <line n="8"><format margin="ind1">God!</format></line>
                 </stanza>
             </body>
         </poem>
@@ -1094,10 +1094,10 @@
                     <line n="4">how I could praise my Lord!</line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1">But I don't need no piano,</line>
-                    <line n="2"><format margin="ind1">neither organ</format></line>
-                    <line n="3"><format margin="ind1">nor drum</format></line>
-                    <line n="4">for to praise my Lord</line>
+                    <line n="5">But I don't need no piano,</line>
+                    <line n="6"><format margin="ind1">neither organ</format></line>
+                    <line n="7"><format margin="ind1">nor drum</format></line>
+                    <line n="8">for to praise my Lord</line>
                 </stanza>
             </body>
         </poem>
@@ -1118,17 +1118,17 @@
             <poemTitle>Passing</poemTitle>
             <body>
                 <stanza n="2">
-                    <line n="1">on sunny Sunday afternoons</line>
-                    <line n="2">when the kids look all new</line>
-                    <line n="3">and far too clean to stay that way,</line>
-                    <line n="4">and Harlem has its</line>
-                    <line n="5">washed-and-ironed-and-cleaned-best out,</line>
-                    <line n="6">the ones who've crossed the line</line>
-                    <line n="7">to live downtown</line>
-                    <line n="8">miss you,</line>
-                    <line n="9">Harlem of the bitter dream</line>
-                    <line n="10">since their dream has</line>
-                    <line n="11">come true.</line>
+                    <line n="6">on sunny Sunday afternoons</line>
+                    <line n="7">when the kids look all new</line>
+                    <line n="8">and far too clean to stay that way,</line>
+                    <line n="9">and Harlem has its</line>
+                    <line n="10">washed-and-ironed-and-cleaned-best out,</line>
+                    <line n="11">the ones who've crossed the line</line>
+                    <line n="12">to live downtown</line>
+                    <line n="13">miss you,</line>
+                    <line n="14">Harlem of the bitter dream</line>
+                    <line n="15">since their dream has</line>
+                    <line n="16">come true.</line>
                 </stanza>
             </body>
         </poem>
@@ -1160,13 +1160,13 @@
                     <line n="2">till the sun goes down.</line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1">But I wonder where</line>
-                    <line n="2">the sunrise</line>
-                    <line n="3">Monday morning's gonna be?</line>
+                    <line n="3">But I wonder where</line>
+                    <line n="4">the sunrise</line>
+                    <line n="5">Monday morning's gonna be?</line>
                 </stanza>
                 <stanza n="3">
-                    <line n="1">I feel like dancin'!</line>
-                    <line n="2">Baby, dance with me!</line>
+                    <line n="6">I feel like dancin'!</line>
+                    <line n="7">Baby, dance with me!</line>
                 </stanza>
             </body>
         </poem>
@@ -1180,7 +1180,7 @@
                     <line n="4">Days are done.</line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1">Son! ... Son!</line>
+                    <line n="5">Son! ... Son!</line>
                 </stanza>
             </body>
         </poem>
@@ -1192,12 +1192,12 @@
                     <line n="2"><format margin="ind1">In Harlem:</format></line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1"><format wordType="italics" margin="ind1">Where did they get</format></line>
-                    <line n="2"><format wordType="italics" margin="ind1">Them two fine cars?</format></line>
+                    <line n="3"><format wordType="italics" margin="ind1">Where did they get</format></line>
+                    <line n="4"><format wordType="italics" margin="ind1">Them two fine cars?</format></line>
                 </stanza>
                 <stanza n="3">
-                    <line n="1">Insurance man, he did not pay -- </line>
-                    <line n="2">His insurance lapsed the other day -- </line>
+                    <line n="5">Insurance man, he did not pay -- </line>
+                    <line n="6">His insurance lapsed the other day -- </line>
                 </stanza>
             </body>
         </poem>
@@ -1206,47 +1206,47 @@
             <poemTitle>Night Funeral in Harlem</poemTitle>
             <body>
                 <stanza n="4">
-                    <line n="1">Yet they got a satin box</line>
-                    <line n="2">For his head to lay.</line>
+                    <line n="7">Yet they got a satin box</line>
+                    <line n="8">For his head to lay.</line>
                 </stanza>
                 <stanza n="5">
-                    <line n="1"><format margin="ind1">Night funeral</format></line>
-                    <line n="2"><format margin="ind1">in Harlem:</format></line>
+                    <line n="9"><format margin="ind1">Night funeral</format></line>
+                    <line n="10"><format margin="ind1">in Harlem:</format></line>
                 </stanza>
                 <stanza n="6">
-                    <line n="1"><format wordType="italics" margin="ind1">Who was it sent</format></line>
-                    <line n="2"><format wordType="italics" margin="ind1">That wreath of flowers?</format></line>
+                    <line n="11"><format wordType="italics" margin="ind1">Who was it sent</format></line>
+                    <line n="12"><format wordType="italics" margin="ind1">That wreath of flowers?</format></line>
                 </stanza>
                 <stanza n="7">
-                    <line n="1">Them flowers came</line>
-                    <line n="2">from that poor boy's friends- </line>
-                    <line n="3">They'll want flowers, too,</line>
-                    <line n="4">When they meet their ends.</line>
+                    <line n="13">Them flowers came</line>
+                    <line n="14">from that poor boy's friends- </line>
+                    <line n="15">They'll want flowers, too,</line>
+                    <line n="16">When they meet their ends.</line>
                 </stanza>
                 <stanza n="8">
-                    <line n="1"><format margin="ind1">Night funeral</format></line>
-                    <line n="2"><format margin="ind1">in Harlem:</format></line>
+                    <line n="17"><format margin="ind1">Night funeral</format></line>
+                    <line n="18"><format margin="ind1">in Harlem:</format></line>
                 </stanza>
                 <stanza n="9">
-                <line n="1"><format wordType="italics" margin="ind1">Who preached that</format></line>
-                <line n="2"><format wordType="italics" margin="ind1">Black boy to his grave?</format></line>
+                <line n="19"><format wordType="italics" margin="ind1">Who preached that</format></line>
+                <line n="20"><format wordType="italics" margin="ind1">Black boy to his grave?</format></line>
                 </stanza>
                 <stanza n="10">
-                    <line n="1">Old preacher-man</line>
-                    <line n="2">Preached that boy away-</line>
-                    <line n="3">Charged Five Dollars</line>
-                    <line n="4">His girl friend had to pay.</line>
+                    <line n="21">Old preacher-man</line>
+                    <line n="22">Preached that boy away-</line>
+                    <line n="23">Charged Five Dollars</line>
+                    <line n="24">His girl friend had to pay.</line>
                 </stanza>
                 <stanza n="11">
-                    <line n="1"><format margin="ind1">Night funeral</format></line>
-                    <line n="2"><format margin="ind1">in Harlem:</format></line>
+                    <line n="25"><format margin="ind1">Night funeral</format></line>
+                    <line n="26"><format margin="ind1">in Harlem:</format></line>
                 </stanza>
                 <stanza n="12">
-                    <line n="1">When it was all over</line>
-                    <line n="2">And the lid shut on his head</line>
-                    <line n="3">and the organ had done played</line>
-                    <line n="4">and the last prayers been said</line>
-                    <line n="5">and six pallbearers</line>
+                    <line n="27">When it was all over</line>
+                    <line n="28">And the lid shut on his head</line>
+                    <line n="29">and the organ had done played</line>
+                    <line n="30">and the last prayers been said</line>
+                    <line n="31">and six pallbearers</line>
                 </stanza>
             </body>
         </poem>
@@ -1255,21 +1255,21 @@
             <poemTitle>Night Funeral in Harlem</poemTitle>
             <body>
                 <stanza n="13">
-                    <line n="1">Carried him out for dead</line>
-                    <line n="2">And off down Lenox Avenue</line>
-                    <line n="3">That long black hearse done sped,</line>
-                    <line n="4"><format margin="ind1">The streetlight</format></line>
-                    <line n="5"><format margin="ind1">At his corner</format></line>
-                    <line n="6"><format margin="ind1">Shined just like a tear-</format></line>
-                    <line n="7">That boy that they was mournin'</line>
-                    <line n="8">Was so dear, so dear</line>
-                    <line n="9">To them folks that brought the flowers,</line>
-                    <line n="10">To that girl who paid the preacher man-</line>
-                    <line n="11">It was all their tears that made</line>
-                    <line n="12"><format margin="ind1">That poor boy's</format></line>
-                    <line n="13"><format margin="ind1">Funeral grand.</format></line>
-                    <line n="14"><format margin="ind1">Night funeral</format></line>
-                    <line n="15"><format margin="ind1">In Harlem.</format></line>
+                    <line n="32">Carried him out for dead</line>
+                    <line n="33">And off down Lenox Avenue</line>
+                    <line n="34">That long black hearse done sped,</line>
+                    <line n="35"><format margin="ind1">The streetlight</format></line>
+                    <line n="36"><format margin="ind1">At his corner</format></line>
+                    <line n="37"><format margin="ind1">Shined just like a tear-</format></line>
+                    <line n="38">That boy that they was mournin'</line>
+                    <line n="39">Was so dear, so dear</line>
+                    <line n="40">To them folks that brought the flowers,</line>
+                    <line n="41">To that girl who paid the preacher man-</line>
+                    <line n="42">It was all their tears that made</line>
+                    <line n="43"><format margin="ind1">That poor boy's</format></line>
+                    <line n="44"><format margin="ind1">Funeral grand.</format></line>
+                    <line n="45"><format margin="ind1">Night funeral</format></line>
+                    <line n="46"><format margin="ind1">In Harlem.</format></line>
                 </stanza>
             </body>
         </poem>
@@ -1284,11 +1284,11 @@
                     <line n="5">So I don't dare start thinking in the morning.</line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1">I don't dare remember in the morning</line>
-                    <line n="2">Don't dare remember in the morning.</line>
-                    <line n="3"><format margin="ind1">If I recall the day before,</format></line>
-                    <line n="4"><format margin="ind1">I wouldn't get up no more-</format></line>
-                    <line n="5">So I don't dare remember in the morning.</line>
+                    <line n="6">I don't dare remember in the morning</line>
+                    <line n="7">Don't dare remember in the morning.</line>
+                    <line n="8"><format margin="ind1">If I recall the day before,</format></line>
+                    <line n="9"><format margin="ind1">I wouldn't get up no more-</format></line>
+                    <line n="10">So I don't dare remember in the morning.</line>
                 </stanza>
             </body>
         </poem>
@@ -1300,21 +1300,21 @@
                     <line n="1">Chile, these steps is hard to climb.</line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1"><format wordType="italics" margin="ind1">Grandma, lend me a dime.</format></line>
+                    <line n="2"><format wordType="italics" margin="ind1">Grandma, lend me a dime.</format></line>
                 </stanza>
                 <stanza n="3">
-                    <line n="1">Montage of a dream deferred:</line>
+                    <line n="3">Montage of a dream deferred:</line>
                 </stanza>
                 <stanza n="4">
-                    <line n="1"><format wordType="italics" margin="ind1">Grandma acts like</format></line>
-                    <line n="2"><format wordType="italics" margin="ind1">She ain't heard.</format></line>
+                    <line n="4"><format wordType="italics" margin="ind1">Grandma acts like</format></line>
+                    <line n="5"><format wordType="italics" margin="ind1">She ain't heard.</format></line>
                 </stanza>
                 <stanza n="5">
-                    <line n="1">Chile, Granny ain't got no dime.</line>
+                    <line n="6">Chile, Granny ain't got no dime.</line>
                 </stanza>
                 <stanza n="6">
-                    <line n="1"><format wordType="italics" margin="ind1">I might've knowed</format></line>
-                    <line n="2"><format wordType="italics" margin="ind1">It all the time.</format></line>
+                    <line n="7"><format wordType="italics" margin="ind1">I might've knowed</format></line>
+                    <line n="8"><format wordType="italics" margin="ind1">It all the time.</format></line>
                 </stanza>
             </body>
         </poem>
@@ -1327,17 +1327,17 @@
                     <line n="3">Black, get back!</line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1"><format wordType="italics" margin="ind1">Do you believe that, Jack?</format></line>
+                    <line n="4"><format wordType="italics" margin="ind1">Do you believe that, Jack?</format></line>
                 </stanza>
                 <stanza n="3">
-                    <line n="1">Sure do!</line>
+                    <line n="5">Sure do!</line>
                 </stanza>
                 <stanza n="4">
-                    <line n="1"><format wordType="italics" margin="ind1">Then you're a dope,</format></line>
-                    <line n="2"><format wordType="italics" margin="ind1">for which there ain't no hope.</format></line>
-                    <line n="3"><format wordType="italics" margin="ind1">Black is fine!</format></line>
-                    <line n="4"><format wordType="italics" margin="ind1">And, God knows,</format></line>
-                    <line n="5"><format wordType="italics" margin="ind1">It's mine!</format></line>
+                    <line n="6"><format wordType="italics" margin="ind1">Then you're a dope,</format></line>
+                    <line n="7"><format wordType="italics" margin="ind1">for which there ain't no hope.</format></line>
+                    <line n="8"><format wordType="italics" margin="ind1">Black is fine!</format></line>
+                    <line n="9"><format wordType="italics" margin="ind1">And, God knows,</format></line>
+                    <line n="10"><format wordType="italics" margin="ind1">It's mine!</format></line>
                 </stanza>
             </body>
         </poem>
@@ -1358,26 +1358,26 @@
                     <line n="10">And he's smarter than he looks,</line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1"><format wordType="italics" margin="ind1">He ain't smart.</format></line>
-                    <line n="2"><format wordType="italics" margin="ind1">That cat's a fool.</format></line>
+                    <line n="11"><format wordType="italics" margin="ind1">He ain't smart.</format></line>
+                    <line n="12"><format wordType="italics" margin="ind1">That cat's a fool.</format></line>
                 </stanza>
                 <stanza n="3">
-                    <line n="1">Now he ain't neither.</line>
-                    <line n="2">He's a good man,</line>
-                    <line n="3">except he talks too much.</line>
-                    <line n="4">In fact, he's a great cat.</line>
-                    <line n="5">But when he drinks,</line>
-                    <line n="6">he drinks fast.</line>
+                    <line n="13">Now he ain't neither.</line>
+                    <line n="14">He's a good man,</line>
+                    <line n="15">except he talks too much.</line>
+                    <line n="16">In fact, he's a great cat.</line>
+                    <line n="17">But when he drinks,</line>
+                    <line n="18">he drinks fast.</line>
                 </stanza>
                 <stanza n="4">
-                    <line n="1"><format wordType="italics" margin="ind1">Sometimes</format></line>
-                    <line n="2"><format wordType="italics" margin="ind1">he don't drink.</format></line>
+                    <line n="19"><format wordType="italics" margin="ind1">Sometimes</format></line>
+                    <line n="20"><format wordType="italics" margin="ind1">he don't drink.</format></line>
                 </stanza>
                 <stanza n="5">
-                    <line n="1">True,</line>
-                    <line n="2">he just</line>
-                    <line n="3">lets his glass</line>
-                    <line n="4">set there.</line>
+                    <line n="21">True,</line>
+                    <line n="22">he just</line>
+                    <line n="23">lets his glass</line>
+                    <line n="24">set there.</line>
                 </stanza>
             </body>
         </poem>
@@ -1392,16 +1392,16 @@
                     <line n="4"><format wordType="italics">Don't you hear me call?</format></line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1">If I was anybody's sister,</line>
-                    <line n="2">I'd tell her, <format wordType="italics">Gimme a place to sleep.</format></line>
-                    <line n="3">But I ain't nobody's sister.</line>
-                    <line n="4">I'm just a poor lost sheep.</line>
+                    <line n="5">If I was anybody's sister,</line>
+                    <line n="6">I'd tell her, <format wordType="italics">Gimme a place to sleep.</format></line>
+                    <line n="7">But I ain't nobody's sister.</line>
+                    <line n="8">I'm just a poor lost sheep.</line>
                 </stanza>
                 <stanza n="3">
-                    <line n="1">Mary, Mary, Mary,</line>
-                    <line n="2">Had a little lamb.</line>
-                    <line n="3">Well, I hope that lamb of Mary's</line>
-                    <line n="4">Don't turn out like I am.</line>
+                    <line n="9">Mary, Mary, Mary,</line>
+                    <line n="10">Had a little lamb.</line>
+                    <line n="11">Well, I hope that lamb of Mary's</line>
+                    <line n="12">Don't turn out like I am.</line>
                 </stanza>
             </body>
         </poem>
@@ -1438,16 +1438,16 @@
                     <line n="4">said:</line>
                 </stanza>
                 <stanza n="2">
-                    <line n="1"><format wordType="italics" margin="ind1">Joe has sense enough to know</format></line>
-                    <line n="2"><format wordType="italics" margin="ind1">He is a god.</format></line>
-                    <line n="3"><format wordType="italics" margin="ind1">So many gods don't know.</format></line>
+                    <line n="5"><format wordType="italics" margin="ind1">Joe has sense enough to know</format></line>
+                    <line n="6"><format wordType="italics" margin="ind1">He is a god.</format></line>
+                    <line n="7"><format wordType="italics" margin="ind1">So many gods don't know.</format></line>
                 </stanza>
                 <stanza n="3">
-                    <line n="1">"They say" ... "They say" ... "They say" ...</line>
-                    <line n="2">But the gossips had no</line>
-                    <line n="3">"They say"</line>
-                    <line n="4">to latch onto</line>
-                    <line n="5">for Joe.</line>
+                    <line n="8">"They say" ... "They say" ... "They say" ...</line>
+                    <line n="9">But the gossips had no</line>
+                    <line n="10">"They say"</line>
+                    <line n="11">to latch onto</line>
+                    <line n="12">for Joe.</line>
                 </stanza>
             </body>
         </poem>
@@ -1480,12 +1480,12 @@
             <poemTitle>Brothers</poemTitle>
             <body>
                 <stanza n="2">
-                    <line n="1">Kinsmen- you and I,</line>
-                    <line n="2">You from Africa,</line>
-                    <line n="3">I from the USA.</line>
+                    <line n="4">Kinsmen- you and I,</line>
+                    <line n="5">You from Africa,</line>
+                    <line n="6">I from the USA.</line>
                 </stanza>
                 <stanza n="3">
-                    <line n="1">Brothers-you and I.</line>
+                    <line n="7">Brothers-you and I.</line>
                 </stanza>
             </body>
         </poem>
