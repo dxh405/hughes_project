@@ -5,7 +5,11 @@
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
-    
+ <!--2020-12-04 ebb: This XSLT models xsl:analyze string, while outputting a reading view of the Montage of a Dream Deferred poetry collection.
+The xsl:analyze-string code is matching on a text() node, any text() node, and it is designed to match
+on the phrase "dream deferred" to output it in an HTML <span class="motif"> which can be styled to highlight 
+any time this phrase is used anywhere the poetry collection.
+ -->   
     <xsl:template match="/">
         <html>
             <head>
@@ -47,18 +51,20 @@
     
  <xsl:template match="line">
      <p>
+         <xsl:apply-templates/>
+     </p>  
+ </xsl:template> 
+    
+    <xsl:template match="text()">
         <xsl:analyze-string select="." regex="dream deferred">
-           <xsl:matching-substring> 
-               <span class="motif"><xsl:value-of select="."/></span>
-           </xsl:matching-substring>
+            <xsl:matching-substring> 
+                <span class="motif"><xsl:value-of select="."/></span>
+            </xsl:matching-substring>
             <xsl:non-matching-substring>
-                <xsl:apply-templates select="."/>
+                <xsl:value-of select="."/>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
-     </p>
-     
- </xsl:template>
-    
+    </xsl:template>
     
     <xsl:template match="format[@wordType='italics']">
         <em>
