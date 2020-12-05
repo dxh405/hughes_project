@@ -9,26 +9,33 @@ th{
     font-family: fantasy;
     font-size: 20px;
 }
-h3 {
-font-size:30px;
-color: maroon;
-font-family: olicana-fine, sans-serif;
-font-style: normal;
-font-weight: 400;
-}
+/* AW: changed font style temporarily until we can decide on a better one and moved h3 below h2 for organization*/
 h1 {
 font-size: 60px;
 color:maroon;
-font-family: olicana-fine, sans-serif;
+font-family: Garamond, serif;
 font-style: normal;
 font-weight: 400;
 }
 
 h2 {
 font-size:40px;
-font-family: olicana-fine, sans-serif;
+font-family:  Garamond, serif;
 font-style: normal;
 font-weight: 400;
+}
+
+h3 {
+font-size:30px;
+color: maroon;
+font-family: Garamond, serif;
+font-style: normal;
+font-weight: 400;
+}
+/* AW: img-container is what I used to make the navigation bar and to center the heading*/
+.img-container 
+{
+text-align:center;
 }
 
 .underline {
