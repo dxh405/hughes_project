@@ -71,12 +71,22 @@ any time this phrase is used anywhere the poetry collection.
             <xsl:matching-substring> 
                 <span class="motif"><xsl:value-of select="."/></span>
             </xsl:matching-substring>
+            
             <xsl:non-matching-substring>
-                <xsl:value-of select="."/>
+                <xsl:analyze-string select="." regex="[Ff]reedom"><!--ebb: I kept on going here to see if I could keep adding highlights to other phrases. This is how you do it.
+                Set a new xsl: analyze string inside the non-matching substring, and keep on going, so each new one nests inside the non-matching substring of the previous analyze-string.-->
+                    <xsl:matching-substring>
+                        <span class="motif"><xsl:value-of select="."/></span>
+                    </xsl:matching-substring>
+                    <xsl:non-matching-substring>
+                        <xsl:value-of select="."/>
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
+       
     </xsl:template>
-    <!-- ebb: You could create as many of these as you like, though the patterns/phrases shouldn't overlap with each other
+    <!-- ebb: You could create as many of these as you like, but you have to set them in order and nest them like I did here, so I could pick up either capital or lower-case "Freedom" or "freedom" as well as "dream deferred". 
         And, of course, you can style your output <span> elements with CSS, maybe with colors or background colors or text-decoration effects
         .-->
     
