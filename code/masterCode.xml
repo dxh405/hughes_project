@@ -30,7 +30,7 @@
                 <line n="1">Good morning, daddy!</line>
                 <line n="2">Ain't you heard</line>
                 <line n="3">The boogie-woogie rumble</line>
-                <line n="4">Of a dream deferred?</line>
+                <line n="4">Of a <note ref="dreamdeferred">dream deferred</note>?</line>
             </stanza>
             <stanza n="2">
                 <line n="5">Listen closely;</line>
@@ -417,8 +417,8 @@
                 <stanza n="1">
                     <line n="1">Why should it be<format wordType="italics">my</format>loneliness,</line>
                     <line n="2">Why should it be<format wordType="italics">my</format>song,</line>
-                    <line n="3">Why should it be<format wordType="italics">my</format>dream</line>
-                    <line n="4"><format margin="ind1">deferred</format></line>
+                    <line n="3">Why should it be<format wordType="italics">my</format><note ref="dream">dream</note></line>
+                    <line n="4"><format margin="ind1"><note ref="dreamdeferred">deferred</note></format></line>
                     <line n="5"><format margin="ind1">overlong?</format></line>
                 </stanza>
             </body>
@@ -1126,8 +1126,8 @@
                     <line n="11">the ones who've crossed the line</line>
                     <line n="12">to live downtown</line>
                     <line n="13">miss you,</line>
-                    <line n="14">Harlem of the bitter dream</line>
-                    <line n="15">since their dream has</line>
+                    <line n="14">Harlem of the bitter <note ref="dream">dream</note></line>
+                    <line n="15">since their <note ref="dream">dream</note> has</line>
                     <line n="16">come true.</line>
                 </stanza>
             </body>
@@ -1136,11 +1136,11 @@
             <poemTitle>Nightmare Boogie</poemTitle>
             <body>
                 <stanza n="1">
-                    <line n="1"><format margin="ind1">I had a dream</format></line>
+                    <line n="1"><format margin="ind1">I had a <note ref="dream">dream</note></format></line>
                     <line n="2"><format margin="ind1">and I could see</format></line>
                     <line n="3"><format margin="ind1">a million faces</format></line>
                     <line n="4"><format margin="ind1">black as me!</format></line>
-                    <line n="5"><format margin="ind1">A nightmare dream:</format></line>
+                    <line n="5"><format margin="ind1">A nightmare <note ref="dream">dream</note>:</format></line>
                     <line n="6"><format wordType="italics" margin="ind1">Quicker than light</format></line>
                     <line n="7"><format wordType="italics" margin="ind1">All them faces</format></line>
                     <line n="8"><format wordType="italics" margin="ind1">Turned dead white|</format></line>
@@ -1303,7 +1303,7 @@
                     <line n="2"><format wordType="italics" margin="ind1">Grandma, lend me a dime.</format></line>
                 </stanza>
                 <stanza n="3">
-                    <line n="3">Montage of a dream deferred:</line>
+                    <line n="3"><note ref="montage">Montage of a dream deferred:</note></line>
                 </stanza>
                 <stanza n="4">
                     <line n="4"><format wordType="italics" margin="ind1">Grandma acts like</format></line>
@@ -1540,7 +1540,7 @@
                     <line n="25">Sometimes I think</line>
                     <line n="26">Jews have heard</line>
                     <line n="27">the music of a</line>
-                    <line n="28">dream deferred.</line>
+                    <line n="28"><note ref="dreamdeferred">dream deferred</note>.</line>
                 </stanza>
             </body>
         </poem>
@@ -1565,7 +1565,7 @@
                 <stanza n="1">
                     <line n="1">He rose up on his dying bed</line>
                     <line n="2">and asked for fish.</line>
-                    <line n="3">His wife looked it up in her dream book</line>
+                    <line n="3">His wife looked it up in her <note ref="dream">dream</note> book</line>
                     <line n="4">and played it.</line>
                 </stanza>
             </body>
@@ -1594,7 +1594,7 @@
             <poemTitle>Harlem</poemTitle>
             <body>
                 <stanza n="1">
-                    <line n="1">What happens to a dream deffered?</line>
+                    <line n="1">What happens to a <note ref="dreamdeferred">dream deffered</note>?</line>
                 </stanza>
                 <stanza n="2">
                     <line n="2">Does it dry up</line>
@@ -1640,7 +1640,7 @@
                 <stanza n="2">
                     <line n="18">wondering</line>
                     <line n="19">wide-eyed</line>
-                    <line n="20">dreaming</line>
+                    <line n="20"><note ref="dream">dreaming</note></line>
                 </stanza>
                 <stanza n="3">
                     <line n="21">out of Penn Station-</line>
@@ -1653,7 +1653,7 @@
                 </stanza>
                 <stanza n="4">
                     <line n="28">What happens</line>
-                    <line n="29">to a dream deferred?</line>
+                    <line n="29">to a <note ref="dreamdeferred">dream deferred</note>?</line>
                 </stanza>
                 <stanza n="5">
                     <line n="30">Daddy, ain't you heard?</line>
@@ -1673,7 +1673,7 @@
                 <stanza n="2">
                     <line n="5"><format wordType="italics">There's a certain</format></line>
                     <line n="6"><format wordType="italics">amount of traveling</format></line>
-                    <line n="7"><format wordType="italics">in a dream deferred.</format></line>
+                    <line n="7"><format wordType="italics">in a <note ref="dreamdeferred">dream deferred</note>.</format></line>
                 </stanza>
                 <stanza n="3">
                     <line n="8">Lulu said to leonard,</line>
@@ -1684,7 +1684,7 @@
                 <stanza n="4">
                     <line n="12"><format wordType="italics">A certain</format></line>
                     <line n="13"><format wordType="italics">amount of nothing</format></line>
-                    <line n="14"><format wordType="italics">in a dream deferrred.</format></line>
+                    <line n="14"><format wordType="italics">in a <note ref="dreamdeferred">dream deferrred</note>.</format></line>
                 </stanza>
                 <stanza n="5">
                     <line n="15">Daddy, daddy, daddy,</line>
@@ -1695,7 +1695,7 @@
                 <stanza n="6">
                     <line n="19"><format wordType="italics">A certain</format></line>
                     <line n="20"><format wordType="italics">amount of impotence</format></line>
-                    <line n="21"><format wordType="italics">in a dream deferrred.</format></line>
+                    <line n="21"><format wordType="italics">in a <note ref="dreamdeferred">dream deferrred</note>.</format></line>
                 </stanza>
                 <stanza n="7">
                     <line n="22">Three parties</line>
@@ -1712,13 +1712,13 @@
                 <stanza n="8">
                     <line n="26"><format wordType="italics">There's liable</format></line>
                     <line n="27"><format wordType="italics">to be confusion</format></line>
-                    <line n="28"><format wordType="italics">in a dream deferred.</format></line>
+                    <line n="28"><format wordType="italics">in a <note ref="dreamdeferred">dream deferred</note>.</format></line>
                 </stanza>
                 <stanza n="9">
                     <line n="29">From river to river,</line>
                     <line n="30">Uptown and Down,</line>
                     <line n="31">There's liable to be confusion</line>
-                    <line n="32">when a dream gets kicked around.</line>
+                    <line n="32">when a <note ref="dream">dream</note> gets kicked around.</line>
                 </stanza>
             </body>
         </poem>
@@ -1728,7 +1728,7 @@
                 <stanza n="1">
                     <line n="1">You talk like</line>
                     <line n="2">They don't kick</line>
-                    <line n="3">dreams around</line>
+                    <line n="3"><note ref="dreamdeferred">dreams</note> around</line>
                     <line n="4">downtown.</line>
                 </stanza>
                 <stanza n="2">
@@ -1781,8 +1781,8 @@
                     <line n="8">Pie of a town.</line>
                 </stanza>
                 <stanza n="3">
-                    <line n="9"><format wordType="italics">Dream within a dream,</format></line>
-                    <line n="10"><format wordType="italics">Our dream deferred.</format></line>
+                    <line n="9"><format wordType="italics"><note ref="dream">Dream</note> within a <note ref="dream">dream</note>,</format></line>
+                    <line n="10"><format wordType="italics">Our <note ref="dreamdeferred">dream deferred</note>.</format></line>
                 </stanza>
                 <stanza n="4">
                     <line n="11">Good morning, daddy!</line>
