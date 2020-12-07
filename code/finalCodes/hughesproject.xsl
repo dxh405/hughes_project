@@ -40,7 +40,7 @@ any time this phrase is used anywhere the poetry collection.
                 <section id="readingView">
                     <xsl:apply-templates select="descendant::poem"/>
                 </section>
-                <!--ebb: If you want to output the code you marked as a title at the very end, you could uncomment this:
+                <!--ebb: If you want to output the code you marked as a title at the very end, you could uncomment this: -->
                  <h1><xsl:apply-templates select="descendant::text/title[2]"/></h1>
               -->
             </body>
@@ -48,7 +48,7 @@ any time this phrase is used anywhere the poetry collection.
     </xsl:template>
     <xsl:template match="poem" mode="toc">
         <tr>
-            <td><a href="#C{count(preceding-sibling::poem) + 1}"></a><xsl:if test="not(poem[@cont])"><xsl:apply-templates select="poemTitle"/></xsl:if></td>
+            <td><a href="#P{count(preceding-sibling::poem) + 1}"></a><xsl:if test="not(poem[@cont])"><xsl:apply-templates select="poemTitle"/></xsl:if></td>
             <td><xsl:apply-templates select="pb/@pNum"></xsl:apply-templates></td>
         </tr>
     </xsl:template>
@@ -140,5 +140,9 @@ any time this phrase is used anywhere the poetry collection.
         </em>
     </xsl:template>
     -->
+    <!-- jkc: trying to add internal links -->
+    <xsl:template match="text/poem">
+        <h2 id="P{count(preceding-sibling::h2) + 1}"><xsl:apply-templates/></h2>
+    </xsl:template>
    
 </xsl:stylesheet>
