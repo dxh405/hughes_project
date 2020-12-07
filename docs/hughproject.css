@@ -134,6 +134,24 @@ font-size: inherit;
 span.motif {color:red;
     
 }
+/* dxh: added formatting for the about the team page */
+.image1 
+{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+   border-radius: 50%; 
+   width: 200px;
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:"DK Lemon Yellow Sun";
+ font-size: 30px;
+ }
 
 /* list of fonts to use
 font-family: 'Annie Use Your Telescope', cursive;
@@ -143,4 +161,3 @@ font-family: 'Fredericka the Great', cursive;
 font-family: 'IM Fell French Canon SC', serif;
 font-family: 'Merienda', cursive;
 font-family: 'Montserrat', sans-serif;
-
