@@ -1,4 +1,5 @@
-@charset "UTF-8";
+
+
 /* CSS Document */
 
 body{
@@ -6,7 +7,7 @@ body{
 }
 
 th{
-    font-family: fantasy;
+    font-family:"DK Lemon Yellow Sun";
     font-size: 20px;
 }
 h3 {
@@ -19,9 +20,10 @@ font-weight: 400;
 h1 {
 font-size: 60px;
 color:maroon;
-font-family: olicana-fine, sans-serif;
+font-family:"DK Lemon Yellow Sun";
 font-style: normal;
 font-weight: 400;
+ text-align: center;
 }
 
 h2 {
@@ -29,7 +31,16 @@ font-size:40px;
 font-family: olicana-fine, sans-serif;
 font-style: normal;
 font-weight: 400;
+ text-align: center;
 }
+
+h4 {
+    font-family:"Chalkboard";
+    font-size: 20px;
+      text-align: center;
+}
+    
+
 
 .underline {
 text-decoration: underline;
@@ -79,9 +90,48 @@ font-family: inherit;
 font-size: inherit;
 }
 
-/* ebb: Here's a styling rule for the "dream deferred" motif I output with xsl:analyze-string 
- * Change it if it doesn't look good! */
-span.motif {color:red;
+ /*Navigation style */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DFB2A9;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:"DK Lemon Yellow Sun";
+ font-size: 30px;
+ }
+
+li a:hover {
+  background-color: #B78E80;
+}
+
+ .image1 
+{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+   border-radius: 50%; 
+   width: 200px;
+    
     
 }
 
+table 
+{padding-right: 50px;	
+padding-left: 50px;
+table-layout: fixed;
+ width: 1400px;   
+    
+}
