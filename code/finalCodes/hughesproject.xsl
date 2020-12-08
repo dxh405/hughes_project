@@ -38,111 +38,51 @@ any time this phrase is used anywhere the poetry collection.
                 <hr/>
                 <!-- jkc: the actual poems -->
                 <section id="readingView">
-                    <xsl:apply-templates select="descendant::poem"/>
+                    <xsl:apply-templates select="descendant::div[@xml:id='epigraph']"/>
+                    <xsl:apply-templates select="descendant::div[@xml:id='everypoem']"/>
                 </section>
-                <!--ebb: If you want to output the code you marked as a title at the very end, you could uncomment this: -->
-                 <h1><xsl:apply-templates select="descendant::text/title[2]"/></h1>
-              -->
             </body>
         </html>
     </xsl:template>
     <xsl:template match="poem" mode="toc">
-        <tr>
-            <td><a href="#P{count(preceding-sibling::poem) + 1}"></a><xsl:if test="not(poem[@cont])"><xsl:apply-templates select="poemTitle"/></xsl:if></td>
-            <td><xsl:apply-templates select="pb/@pNum"></xsl:apply-templates></td>
-        </tr>
+       <xsl:if test="not(@cont)"><tr>
+            <td><a href="#P{count(preceding::poem[not(@cont)])+ 1}"><xsl:apply-templates select="poemTitle"/></a></td>
+           <td><a href="#PG{preceding-sibling::pb[1]/@pNum}"><xsl:apply-templates select="preceding-sibling::pb[1]/@pNum"></xsl:apply-templates></a></td>
+        </tr></xsl:if>
     </xsl:template>
-    <xsl:template match="poem">
-        <h2><xsl:apply-templates select="descendant::poemTitle"/></h2>
-        <xsl:apply-templates select="descendant::line"/>
-    </xsl:template>
-    
- <xsl:template match="line">
-     <p>
-         <xsl:apply-templates/>
-     </p>  
- </xsl:template> 
 <!--2020-12-04 ebb: This template matches on text() nodes anywhere in your source XML, and analyzes them
     looking for the regex pattern "dream deferred", as a literal phrase. Anytime it finds those characters all together,
     it outputs an HTML <span class="motif">...</span> around the matching part, and it also outputs the non-matching part.
     -->   
-    <xsl:template match="text()">
-        <xsl:analyze-string select="." regex="dream deferred">
-            <xsl:matching-substring> 
-                <span class="motif"><xsl:value-of select="."/></span>
-            </xsl:matching-substring>
-            
-            <xsl:non-matching-substring>
-                <xsl:analyze-string select="." regex="[Ff]reedom"><!--ebb: I kept on going here to see if I could keep adding highlights to other phrases. This is how you do it.
-                Set a new xsl: analyze string inside the non-matching substring, and keep on going, so each new one nests inside the non-matching substring of the previous analyze-string.-->
-                    <xsl:matching-substring>
-                        <span class="motif"><xsl:value-of select="."/></span>
-                    </xsl:matching-substring>
-                    <xsl:non-matching-substring>
-                        <xsl:value-of select="."/>
-                    </xsl:non-matching-substring>
-                </xsl:analyze-string>
-            </xsl:non-matching-substring>
-        </xsl:analyze-string>
-       
-    </xsl:template>
     <!-- ebb: You could create as many of these as you like, but you have to set them in order and nest them like I did here, so I could pick up either capital or lower-case "Freedom" or "freedom" as well as "dream deferred". 
         And, of course, you can style your output <span> elements with CSS, maybe with colors or background colors or text-decoration effects
         .-->
-    
+    <xsl:template match="div[@xml:id='epigraph']">
+        <xsl:apply-templates select="poem"/>
+    </xsl:template>
+    <xsl:template match="pb">
+        <p class="pageNum" id="PG{@pNum}"><xsl:apply-templates select="@pNum"/></p>
+    </xsl:template>
     <xsl:template match="format">
         <xsl:variable name="formatProperty" as="xs:string+" select="@*/string()"/>
         <em class="{$formatProperty}"><xsl:apply-templates/></em> 
     </xsl:template>
-    <!--ebb: Above is a new rule I wrote to simplify your procesing of <format> and its various attributes.
-       This is applying a variable in XSLT to collect all of the attribute values of ANY attributes you have set on a format element anywhere in the document.
-       Since you are outputting these all as values of @class in HTML, we can output multiple values so if something is indented
-       and capitalized, you get both properties, separated by a space. Multiple @class values just come out like this and are pretty common to use in HTML:
-        
-        <em class="italics ind1">....</em>
-       
-       With the series of templates matching on <format> with each different attribute, you'd be getting one or the other value but not both. 
-       Now you'll definitely get all the values, and your CSS styling should respond to them all.
-       
-       Your original XSLT was having trouble determining when to fire the several template rules you wrote below
-        because quite often the @wordType and @margin attributes are on the same element. We were seeing an "ambiguous rule match" warning, 
-        which didn't stop the XSLT, but I think it didn't completely process all your values.
-        The XSLT was working, but it was only giving you *one* value most of the time, so it wasn't optimal.
-        I hope this revised, single rule works out better for your HTML output.
-        
-       -->
-    
-    <!--ebb: This code below generated "ambiguous rule matches" so I'm commenting it out.  
-        
-        <xsl:template match="format[@wordType='italics']">
-        <em>
-            <xsl:apply-templates/>
-        </em>
-    </xsl:template>
-    <xsl:template match="format[@wordType='underline']">
-        <em class="underline">
-            <xsl:apply-templates/>
-        </em>
-    </xsl:template>
-    <xsl:template match="format[@wordType='caps']">
-        <em class="caps">
-            <xsl:apply-templates/>
-        </em>
-    </xsl:template>
-    <xsl:template match="format[@margin='ind1']">
-        <em class="ind1">
-            <xsl:apply-templates/>
-        </em>
-    </xsl:template>
-    <xsl:template match="format[@margin='ind2']">
-        <em class="ind2">
-            <xsl:apply-templates/>
-        </em>
-    </xsl:template>
-    -->
     <!-- jkc: trying to add internal links -->
-    <xsl:template match="text/poem">
-        <h2 id="P{count(preceding-sibling::h2) + 1}"><xsl:apply-templates/></h2>
+    <xsl:template match="poem">
+        <xsl:choose>
+            <xsl:when test="@cont"><h2><xsl:apply-templates select="poemTitle"/></h2></xsl:when>
+            <xsl:otherwise><h2 id="P{count(preceding::poem[not(@cont)])+ 1}"><xsl:apply-templates select="poemTitle"/></h2></xsl:otherwise>
+        </xsl:choose>
+        <xsl:apply-templates select="descendant::stanza"/> 
     </xsl:template>
-   
+    <xsl:template match = "stanza"> 
+        <section class = "stanza">
+            <xsl:apply-templates select ="line"/>
+        </section>
+    </xsl:template>
+    <xsl:template match = "line">
+        <div class = "line"><span class = "lineNum"> 
+            <xsl:apply-templates select = "@n"/>
+        </span> <xsl:apply-templates/></div>
+    </xsl:template>
 </xsl:stylesheet>

@@ -52,5 +52,24 @@
         
      </xsl:template>
    
-    
+    <xsl:template match="text()">
+        <xsl:analyze-string select="." regex="dream deferred">
+            <xsl:matching-substring> 
+                <span class="motif"><xsl:value-of select="."/></span>
+            </xsl:matching-substring>
+            
+            <xsl:non-matching-substring>
+                <xsl:analyze-string select="." regex="[Ff]reedom"><!--ebb: I kept on going here to see if I could keep adding highlights to other phrases. This is how you do it.
+                Set a new xsl: analyze string inside the non-matching substring, and keep on going, so each new one nests inside the non-matching substring of the previous analyze-string.-->
+                    <xsl:matching-substring>
+                        <span class="motif"><xsl:value-of select="."/></span>
+                    </xsl:matching-substring>
+                    <xsl:non-matching-substring>
+                        <xsl:value-of select="."/>
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+        
+    </xsl:template>
 </xsl:stylesheet>

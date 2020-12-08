@@ -2,9 +2,11 @@
 <?xml-model href="MontageofADreamDeferred.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <text>
-        <!-- contributor: Amaya Willis --><pb pNum="218"/>
-     <poem>
-             <poemTitle></poemTitle>
+        <!-- contributor: Amaya Willis -->
+        <div xml:id="epigraph"><pb pNum="218"/>
+            <poem>
+             <poemTitle>Madame and the Census Man</poemTitle>
+             <note ref="notes">This part of the poem was not printed in the source document and is not part of the Montage of A Dream Deferred collection. </note>
             <body>
                 <stanza n="1">
                  <line n="1">Leave me and my name</line>
@@ -19,10 +21,11 @@
             </body>
       </poem>
     <pb pNum="0"/>
+        </div>
     <title>
             <format wordType="caps" margin="leftCenter">MONTAGE OF A DREAM DEFERRED</format>
-        </title>
-    <pb pNum="221"/>
+    </title>
+    <div xml:id="everypoem"><pb pNum="221"/>
         <poem>
             <poemTitle>Dream Boogie</poemTitle>
             
@@ -1754,14 +1757,14 @@
         </poem>
         <pb pNum="272"/>
         <poem cont="continued">
-            <poemTitle></poemTitle>
+            <poemTitle>Letter</poemTitle>
             <body>
                 <stanza n="1">
                     <line n="8"><format wordType="italics">Mama, it has been raining cats and dogs up</format></line>
-                    <line n="8"><format wordType="italics">here. Well, that is all so I will close.</format></line>
-                    <line n="8"><format wordType="italics">Your son baby</format></line>
-                    <line n="8"><format wordType="italics">Respectably as ever,</format></line>
-                    <line n="8"><format wordType="italics">Joe</format></line>
+                    <line n="9"><format wordType="italics">here. Well, that is all so I will close.</format></line>
+                    <line n="10"><format wordType="italics">Your son baby</format></line>
+                    <line n="11"><format wordType="italics">Respectably as ever,</format></line>
+                    <line n="12"><format wordType="italics">Joe</format></line>
                 </stanza>
             </body>
         </poem>
@@ -1792,9 +1795,6 @@
                 </stanza>
             </body>
         </poem>
-        <!--AMO: page is un-numbered but IS 273--><pb pNum="273"/>
-        <title>
-            <format wordType="cap">WORDS LIKE FREEDOM</format></title>
-        <!-- up to 268 -->
+        <!--AMO: page is un-numbered but IS 273--><pb pNum="273"/></div>
     </text>
 </xml>
