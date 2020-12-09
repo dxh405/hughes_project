@@ -25,7 +25,12 @@ any time this phrase is used anywhere the poetry collection.
                 <h1><xsl:apply-templates select="descendant::text/title[1]"/></h1>
                 <!--It looks like you have two title elements, one way at the end of the document? So this one just catches the first one. -->
                 <h2>by Langston Hughes</h2>
-                
+                <ul> <!-- jkc: Navigation Bar -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About the Project</a></li>
+                    <li><a href="aboutTeam.html">About the Team</a></li>
+                    <li><a href="hughesBio.html">About Langston Hughes</a></li>
+                </ul>
                 <!--jkc:Table of Contents -->
                 <section id="contents"> <table> 
                     <tr>
@@ -73,6 +78,7 @@ any time this phrase is used anywhere the poetry collection.
             <xsl:when test="@cont"><h2><xsl:apply-templates select="poemTitle"/></h2></xsl:when>
             <xsl:otherwise><h2 id="P{count(preceding::poem[not(@cont)])+ 1}"><xsl:apply-templates select="poemTitle"/></h2></xsl:otherwise>
         </xsl:choose>
+        <br/><p><xsl:apply-templates select="child::note"/></p>
         <xsl:apply-templates select="descendant::stanza"/> 
     </xsl:template>
     <xsl:template match = "stanza"> 
