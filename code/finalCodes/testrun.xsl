@@ -75,25 +75,21 @@ any time this phrase is used anywhere the poetry collection.
     </xsl:template>
     <!-- jkc: trying to add internal links -->
     <xsl:template match="poem">
-        <xsl:if test="not(@cont)">
-            <h2 id="P{count(preceding::poem[not(@cont)])+ 1}"><xsl:apply-templates select="poemTitle"/></h2>
-           <!-- jkc: I want to make it so that if it has @cont, it doesn't show up -->
-        </xsl:if>
+        <xsl:choose>
+            <xsl:when test="@cont"><h2><xsl:apply-templates select="poemTitle"/></h2></xsl:when>
+            <xsl:otherwise><h2 id="P{count(preceding::poem[not(@cont)])+ 1}"><xsl:apply-templates select="poemTitle"/></h2></xsl:otherwise><!-- jkc: I want to make it so that if it has @cont, it doesn't show up -->
+        </xsl:choose>
         <xsl:choose><xsl:when test="@note"><br/><p><xsl:apply-templates select="child::note"/></p></xsl:when></xsl:choose>
         <xsl:apply-templates select="descendant::stanza"/> 
     </xsl:template>
-    <xsl:template match="stanza"> 
-        <section class="stanza">
+    <xsl:template match = "stanza"> 
+        <section class = "stanza">
             <xsl:apply-templates select ="line"/>
         </section>
     </xsl:template>
-    <xsl:template match="line">
-        <div class="line"><span class = "lineNum"> 
+    <xsl:template match = "line">
+        <div class = "line"><span class = "lineNum"> 
             <xsl:apply-templates select = "@n"/>
         </span> <xsl:apply-templates/></div>
-    </xsl:template>
-    <!-- jkc: highlighting the montage parts -->
-    <xsl:template match="body/descendant::note[@ref='dream']">
-        <em class="bluelight"><xsl:apply-templates/></em>
     </xsl:template>
 </xsl:stylesheet>
