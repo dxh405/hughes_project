@@ -42,7 +42,7 @@ td a {
     background-color: #D99D29;
 }
 
-li a:hover {
+.Nav li a:hover {
     background-color: #DC8920;
     color: white;
 }
@@ -145,16 +145,17 @@ display: block;
     margin-right: auto;
    border-radius: 50%; 
    width: 200px;
+}
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family:"DK Lemon Yellow Sun";
- font-size: 30px;
- }
+p a{
+    text-align: inherit;
+    color: black;
+}
+
+.TOC{
+    background-color: transparent;
+    
+}
 
 /* list of fonts to use
 font-family: 'Annie Use Your Telescope', cursive;

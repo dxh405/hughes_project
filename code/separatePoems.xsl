@@ -38,7 +38,7 @@ any time this phrase is used anywhere the poetry collection.
         </html>
     </xsl:template>
     <xsl:template match="div[@xml:id='epigraph']">
-        <div class="pageNum" id="PG{child::pb[@pNum]}"><xsl:apply-templates select="preceding-sibling::pb[@pNum]"/></div><!-- jkc: the page number here doesn't work. -->
+        <div class="pageNum" id="PG{child::pb/@pNum}"><xsl:value-of select="child::pb/@pNum"/></div><!-- jkc: the page number here doesn't work. -->
         <xsl:apply-templates select="poem"/>
     </xsl:template>
     <xsl:template match="pb">
@@ -63,27 +63,37 @@ any time this phrase is used anywhere the poetry collection.
         </section>
     </xsl:template>
     <xsl:template match="line">
-        <span class = "lineNum"><xsl:apply-templates select = "@n"/><div class="line">
-         <xsl:apply-templates/></div></span>
+        <div class="line"><span class = "lineNum"><xsl:apply-templates select = "@n"/></span>
+         <span class="lineContent"><xsl:apply-templates/></span></div>
     </xsl:template>
     <!-- jkc: highlighting the montage parts -->
     <xsl:template match="body/descendant::note[@ref='dream']">
         <em class="bluelight"><xsl:apply-templates/></em>
     </xsl:template>
     <xsl:template match="text()">
-        <xsl:analyze-string select="." regex="dream deferred">
+        <xsl:variable name="poemTitle" select="preceding::poemTitle[string-length() gt 1][1]!tokenize(.,' ')[1]"/>
+        <xsl:variable name="lineNum" select="ancestor::line/@n"/>
+        <xsl:analyze-string select="." regex="[Mm]ontage of a [Dd]ream [Dd]eferred">
             <xsl:matching-substring> 
-                <span class="motif"><xsl:value-of select="."/></span>
+                <span class="motifMD" id="MD-{$poemTitle}-{$lineNum}"><xsl:value-of select="."/></span>
             </xsl:matching-substring>
             
             <xsl:non-matching-substring>
-                <xsl:analyze-string select="." regex="[Ff]reedom"><!--ebb: I kept on going here to see if I could keep adding highlights to other phrases. This is how you do it.
+                <xsl:analyze-string select="." regex="[Dd]ream deferred"><!--ebb: I kept on going here to see if I could keep adding highlights to other phrases. This is how you do it.
                 Set a new xsl: analyze string inside the non-matching substring, and keep on going, so each new one nests inside the non-matching substring of the previous analyze-string.-->
                     <xsl:matching-substring>
-                        <span class="motif"><xsl:value-of select="."/></span>
+                        <span class="motifDD" id="DD-{$poemTitle}-{$lineNum}"><xsl:value-of select="."/></span>
                     </xsl:matching-substring>
                     <xsl:non-matching-substring>
-                        <xsl:value-of select="."/>
+                        <xsl:analyze-string select="." regex="[Dd]ream"><!--ebb: I kept on going here to see if I could keep adding highlights to other phrases. This is how you do it.
+                Set a new xsl: analyze string inside the non-matching substring, and keep on going, so each new one nests inside the non-matching substring of the previous analyze-string.-->
+                            <xsl:matching-substring>
+                                <span class="motifD" id="D-{$poemTitle}-{$lineNum}"><xsl:value-of select="."/></span>
+                            </xsl:matching-substring>
+                            <xsl:non-matching-substring>
+                                <xsl:value-of select="normalize-space(.)"/>
+                            </xsl:non-matching-substring>
+                        </xsl:analyze-string>
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
             </xsl:non-matching-substring>

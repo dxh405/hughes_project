@@ -98,8 +98,6 @@ font-size: inherit;
 }
 
 .stanza {
-margin-top:1.5em;
-margin-bottom:1.5em;
 font-size: 20px;
 }
 
@@ -122,8 +120,12 @@ font-size: inherit;
 
 /* ebb: Here's a styling rule for the "dream deferred" motif I output with xsl:analyze-string 
  * Change it if it doesn't look good! */
-span.motif {color:red; 
+.motifMD {color:red; 
 }
+
+.motifDD {color: blue;}
+
+.motifD {color:purple;}
 /* dxh: added formatting for the about the team page */
 .image1 {
 display: block;
@@ -135,10 +137,12 @@ display: block;
 
 .lineNum{
     text-align: left;
+    padding-right: 16em;
 }
 
 .line {
-    text-align: center;
+    text-align: left;
+    padding-left: 5em;
 }
 
 .pageNum {
@@ -153,6 +157,9 @@ font-family: 'Fredericka the Great', cursive;
 font-family: 'IM Fell French Canon SC', serif;
 font-family: 'Merienda', cursive;
 font-family: 'Montserrat', sans-serif;
+
+margin-top:1.5em;
+margin-bottom:1.5em;
 
 li a {
   display: block;
