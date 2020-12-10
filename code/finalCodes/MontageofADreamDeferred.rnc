@@ -18,7 +18,7 @@ body = element body {cont?, stanza+}
 stanza = element stanza {n, line+}
 line = element line {n, mixed{format*,q*,note*}} #restart line when starting new stanza
 n = attribute n {xsd:integer}
-format = element format {mixed{wordType*,margin*,note*}}
+format = element format {mixed{(wordType|margin|note|q)*}}
 cont = attribute cont {"continued"}
 wordType = attribute wordType {"italics"|"bold"|"handwritten"|"underline"|"cap"|text}
 margin = attribute margin {"ind1"|"ind2"|"outdent1"|"leftCenter"} #ind1 = 1 tab, ind2 = 2 tabs, outdent1 = opposite of 1 tab 

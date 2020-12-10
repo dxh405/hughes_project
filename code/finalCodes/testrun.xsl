@@ -36,6 +36,7 @@ any time this phrase is used anywhere the poetry collection.
                     <tr>
                         <th>Poem</th>
                         <th>Page Number</th>
+                        <th>Motifs</th>
                     </tr>
                     <xsl:apply-templates select="descendant::poem" mode="toc"/>
                     
@@ -53,6 +54,7 @@ any time this phrase is used anywhere the poetry collection.
        <xsl:if test="not(@cont)"><tr>
             <td><a href="#P{count(preceding::poem[not(@cont)])+ 1}"><xsl:apply-templates select="poemTitle"/></a></td>
            <td><a href="#PG{preceding-sibling::pb[1]/@pNum}"><xsl:apply-templates select="preceding-sibling::pb[1]/@pNum"></xsl:apply-templates></a></td>
+           <td><xsl:apply-templates select="descendant::note"></xsl:apply-templates></td>
         </tr></xsl:if>
     </xsl:template>
 <!--2020-12-04 ebb: This template matches on text() nodes anywhere in your source XML, and analyzes them
@@ -75,21 +77,45 @@ any time this phrase is used anywhere the poetry collection.
     </xsl:template>
     <!-- jkc: trying to add internal links -->
     <xsl:template match="poem">
-        <xsl:choose>
-            <xsl:when test="@cont"><h2><xsl:apply-templates select="poemTitle"/></h2></xsl:when>
-            <xsl:otherwise><h2 id="P{count(preceding::poem[not(@cont)])+ 1}"><xsl:apply-templates select="poemTitle"/></h2></xsl:otherwise><!-- jkc: I want to make it so that if it has @cont, it doesn't show up -->
-        </xsl:choose>
+        <xsl:if test="not(@cont)">
+            <h2 id="P{count(preceding::poem[not(@cont)])+ 1}"><xsl:apply-templates select="poemTitle"/></h2>
+           <!-- jkc: I want to make it so that if it has @cont, it doesn't show up -->
+        </xsl:if>
         <xsl:choose><xsl:when test="@note"><br/><p><xsl:apply-templates select="child::note"/></p></xsl:when></xsl:choose>
         <xsl:apply-templates select="descendant::stanza"/> 
     </xsl:template>
-    <xsl:template match = "stanza"> 
-        <section class = "stanza">
+    <xsl:template match="stanza"> 
+        <section class="stanza">
             <xsl:apply-templates select ="line"/>
         </section>
     </xsl:template>
-    <xsl:template match = "line">
-        <div class = "line"><span class = "lineNum"> 
+    <xsl:template match="line">
+        <div class="line"><span class = "lineNum"> 
             <xsl:apply-templates select = "@n"/>
         </span> <xsl:apply-templates/></div>
+    </xsl:template>
+    <!-- jkc: highlighting the montage parts -->
+    <xsl:template match="body/descendant::note[@ref='dream']">
+        <em class="bluelight"><xsl:apply-templates/></em>
+    </xsl:template>
+    <xsl:template match="text()">
+        <xsl:analyze-string select="." regex="dream deferred">
+            <xsl:matching-substring> 
+                <span class="motif"><xsl:value-of select="."/></span>
+            </xsl:matching-substring>
+            
+            <xsl:non-matching-substring>
+                <xsl:analyze-string select="." regex="[Ff]reedom"><!--ebb: I kept on going here to see if I could keep adding highlights to other phrases. This is how you do it.
+                Set a new xsl: analyze string inside the non-matching substring, and keep on going, so each new one nests inside the non-matching substring of the previous analyze-string.-->
+                    <xsl:matching-substring>
+                        <span class="motif"><xsl:value-of select="."/></span>
+                    </xsl:matching-substring>
+                    <xsl:non-matching-substring>
+                        <xsl:value-of select="."/>
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+        
     </xsl:template>
 </xsl:stylesheet>

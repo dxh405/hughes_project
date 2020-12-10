@@ -36,6 +36,7 @@ any time this phrase is used anywhere the poetry collection.
                     <tr>
                         <th>Poem</th>
                         <th>Page Number</th>
+                        <th>Motifs</th>
                     </tr>
                     <xsl:apply-templates select="descendant::poem" mode="toc"/>
                     
@@ -53,6 +54,7 @@ any time this phrase is used anywhere the poetry collection.
        <xsl:if test="not(@cont)"><tr>
             <td><a href="#P{count(preceding::poem[not(@cont)])+ 1}"><xsl:apply-templates select="poemTitle"/></a></td>
            <td><a href="#PG{preceding-sibling::pb[1]/@pNum}"><xsl:apply-templates select="preceding-sibling::pb[1]/@pNum"></xsl:apply-templates></a></td>
+           <td><xsl:apply-templates select="descendant::note"></xsl:apply-templates></td>
         </tr></xsl:if>
     </xsl:template>
 <!--2020-12-04 ebb: This template matches on text() nodes anywhere in your source XML, and analyzes them
@@ -95,5 +97,43 @@ any time this phrase is used anywhere the poetry collection.
     <!-- jkc: highlighting the montage parts -->
     <xsl:template match="body/descendant::note[@ref='dream']">
         <em class="bluelight"><xsl:apply-templates/></em>
+    </xsl:template>
+    <xsl:template match="text()">
+        <xsl:analyze-string select="." regex="dream deferred">
+            <xsl:matching-substring> 
+                <span class="motif"><xsl:value-of select="."/></span>
+            </xsl:matching-substring>
+            
+            <xsl:non-matching-substring>
+                <xsl:analyze-string select="." regex="[Ff]reedom"><!--ebb: I kept on going here to see if I could keep adding highlights to other phrases. This is how you do it.
+                Set a new xsl: analyze string inside the non-matching substring, and keep on going, so each new one nests inside the non-matching substring of the previous analyze-string.-->
+                    <xsl:matching-substring>
+                        <span class="motif"><xsl:value-of select="."/></span>
+                    </xsl:matching-substring>
+                    <xsl:non-matching-substring>
+                        <xsl:analyze-string select="." regex="dream">
+                            <xsl:matching-substring> 
+                                <span class="motif"><xsl:value-of select="."/></span>
+                            </xsl:matching-substring>
+                            
+                            <xsl:non-matching-substring>
+                                <xsl:analyze-string select="." regex="[Ff]reedom"><!--ebb: I kept on going here to see if I could keep adding highlights to other phrases. This is how you do it.
+                Set a new xsl: analyze string inside the non-matching substring, and keep on going, so each new one nests inside the non-matching substring of the previous analyze-string.-->
+                                    <xsl:matching-substring>
+                                        <span class="motif"><xsl:value-of select="."/></span>
+                                    </xsl:matching-substring>
+                                    <xsl:non-matching-substring>
+                                        <xsl:value-of select="."/>
+                                    </xsl:non-matching-substring>
+                                </xsl:analyze-string>
+                            </xsl:non-matching-substring>
+                        </xsl:analyze-string>
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+        
+        
+        
     </xsl:template>
 </xsl:stylesheet>
