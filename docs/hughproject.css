@@ -137,6 +137,13 @@ font-size: inherit;
 span.motif {color:red;
     
 }
+
+.motifMD {color:red; 
+}
+
+.motifDD {color: blue;}
+
+.motifD {color:purple;}
 /* dxh: added formatting for the about the team page */
 .image1 
 {
@@ -152,9 +159,23 @@ p a{
     color: black;
 }
 
+.lineNum{
+    text-align: left;
+    padding-right: 16em;
+}
+
+.line {
+    text-align: left;
+    padding-left: 10em;
+    font-size: 25px;
+}
+
+.pageNum {
+    text-align: right;
+}
+
 .TOC{
-    background-color: transparent;
-    
+    background-color: transparent;    
 }
 
 /* list of fonts to use
