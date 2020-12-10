@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{/*jkc: bacground image fits to screen.*/
-  background: url("images/background.jpg") no-repeat center center fixed; 
+  background: url("../images/background.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -71,13 +71,6 @@ text-align: center;
 color:maroon;
 }
 
-h3 {
-font-size:30px;
-color: maroon;
-font-family: 'Architects Daughter', cursive;
-font-style: normal;
-font-weight: 400;
-}
 /* AW: img-container is what I used to make the navigation bar and to center the heading*/
 .img-container 
 {
@@ -107,15 +100,10 @@ font-size: inherit;
 .stanza {
 margin-top:1.5em;
 margin-bottom:1.5em;
+font-size: 20px;
 }
 
-.continued {
-text-decoration: line-through;
-font-family: inherit;
-font-size: inherit;
-}
-
-p,td {
+td {
 padding-left:5px;
 font-family:poetica-std, serif;
 }
@@ -134,27 +122,28 @@ font-size: inherit;
 
 /* ebb: Here's a styling rule for the "dream deferred" motif I output with xsl:analyze-string 
  * Change it if it doesn't look good! */
-span.motif {color:red;
-    
+span.motif {color:red; 
 }
 /* dxh: added formatting for the about the team page */
-.image1 
-{
+.image1 {
 display: block;
     margin-left: auto;
     margin-right: auto;
    border-radius: 50%; 
    width: 200px;
+}
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family:"DK Lemon Yellow Sun";
- font-size: 30px;
- }
+.lineNum{
+    text-align: left;
+}
+
+.line {
+    text-align: center;
+}
+
+.pageNum {
+    text-align: right;
+}
 
 /* list of fonts to use
 font-family: 'Annie Use Your Telescope', cursive;
@@ -164,3 +153,14 @@ font-family: 'Fredericka the Great', cursive;
 font-family: 'IM Fell French Canon SC', serif;
 font-family: 'Merienda', cursive;
 font-family: 'Montserrat', sans-serif;
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "DK Lemon Yellow Sun";
+  font-size: 30px;
+ }
+
