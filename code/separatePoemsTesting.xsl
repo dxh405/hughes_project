@@ -15,7 +15,7 @@ any time this phrase is used anywhere the poetry collection.
         <html>
             <head>
                 <title>Montage of A Dream Deferred</title>
-                <link rel="stylesheet" type="text/css" href="hughproject.css"/>
+                <link rel="stylesheet" type="text/css" href="poems.css"/>
                 <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jkx1xou.css" />
             </head>
             <body>
@@ -98,7 +98,6 @@ any time this phrase is used anywhere the poetry collection.
                 </xsl:analyze-string>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
-    </xsl:template>
         <xsl:template match="line/text()">
             <xsl:variable name="poemTitle" select="preceding::poemTitle[string-length() gt 1][1]!tokenize(.,' ')[1]"/>
             <xsl:variable name="lineNum" select="ancestor::line/@n"/>
