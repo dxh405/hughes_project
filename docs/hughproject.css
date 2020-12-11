@@ -79,6 +79,10 @@ font-family: 'Architects Daughter', cursive;
 font-style: normal;
 font-weight: 400;
 }
+
+h4{
+text-align:center;
+}
 /* AW: img-container is what I used to make the navigation bar and to center the heading*/
 .img-container 
 {
@@ -144,7 +148,7 @@ span.motif {color:red;
 
 .motifDD {color: blue;}
 
-.motifD {color:purple;}
+.motifD {color:green;}
 /* dxh: added formatting for the about the team page */
 .image1 
 {
@@ -190,6 +194,10 @@ p a{
     font-family: 'Architects Daughter', cursive;
     font-weight: 500;
     text-decoration: none;
+}
+
+img{
+    padding:10px;
 }
 
 /* list of fonts to use
