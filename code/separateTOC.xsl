@@ -53,24 +53,24 @@ any time this phrase is used anywhere the poetry collection.
                 <xsl:variable name="DD" select="'[Dd]ream [Dd]eferred'"/>
                 <xsl:variable name="D" select="'[Dd]ream'"/>
                 <xsl:if test="descendant::line[matches(.,$MD)] or descendant::line[matches(.,$DD)] or descendant::line[matches(.,$D)]">
-               <ul class="TOC"><xsl:if test="descendant::line[matches(.,$MD)]">
+               <ul class="TOC"><xsl:choose><xsl:when  test="descendant::line[matches(.,$MD)]">
                    <xsl:variable name="Motifmatch" select="descendant::line[matches(.,$MD)][1]"/>
                    <xsl:variable name="PoemTitle" select="$Motifmatch/preceding::poemTitle[string-length() gt 1][1]!tokenize(.,' ')[1]"/>
                    <xsl:variable name="lineNum" select="$Motifmatch/@n"/>
                    <li><a href="separatePoems.html#MD-{$PoemTitle}-{$lineNum}">Montage Motif</a></li>
-               </xsl:if>
-               <xsl:if test="descendant::line[matches(.,$DD)]">
+               </xsl:when>
+             <xsl:otherwise><xsl:choose><xsl:when test="descendant::line[matches(.,$DD)]">
                    <xsl:variable name="Motifmatch" select="descendant::line[matches(.,$DD)][1]"/>
                    <xsl:variable name="PoemTitle" select="$Motifmatch/preceding::poemTitle[string-length() gt 1][1]!tokenize(.,' ')[1]"/>
                    <xsl:variable name="lineNum" select="$Motifmatch/@n"/>
                    <li><a href="separatePoems.html#DD-{$PoemTitle}-{$lineNum}">Dream Deferred Motif</a></li>
-               </xsl:if>
-               <xsl:if test="descendant::line[matches(.,$D)]">
+               </xsl:when>
+              <xsl:otherwise> <xsl:if test="descendant::line[matches(.,$D)]">
                    <xsl:variable name="Motifmatch" select="descendant::line[matches(.,$D)][1]"/>
                    <xsl:variable name="PoemTitle" select="$Motifmatch/preceding::poemTitle[string-length() gt 1][1]!tokenize(.,' ')[1]"/>
                    <xsl:variable name="lineNum" select="$Motifmatch/@n"/>
                    <li><a href="separatePoems.html#D-{$PoemTitle}-{$lineNum}">Dream Motif</a></li>
-               </xsl:if></ul>
+               </xsl:if></xsl:otherwise></xsl:choose></xsl:otherwise></xsl:choose></ul>
                </xsl:if>
                
                

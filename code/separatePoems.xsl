@@ -70,7 +70,7 @@ any time this phrase is used anywhere the poetry collection.
     <xsl:template match="body/descendant::note[@ref='dream']">
         <em class="bluelight"><xsl:apply-templates/></em>
     </xsl:template>
-    <xsl:template match="text()">
+    <xsl:template match="line/text()">
         <xsl:variable name="poemTitle" select="preceding::poemTitle[string-length() gt 1][1]!tokenize(.,' ')[1]"/>
         <xsl:variable name="lineNum" select="ancestor::line/@n"/>
         <xsl:analyze-string select="." regex="[Mm]ontage of a [Dd]ream [Dd]eferred">
@@ -79,7 +79,7 @@ any time this phrase is used anywhere the poetry collection.
             </xsl:matching-substring>
             
             <xsl:non-matching-substring>
-                <xsl:analyze-string select="." regex="[Dd]ream deferred"><!--ebb: I kept on going here to see if I could keep adding highlights to other phrases. This is how you do it.
+                <xsl:analyze-string select="." regex="[Dd]ream [Dd]eferred"><!--ebb: I kept on going here to see if I could keep adding highlights to other phrases. This is how you do it.
                 Set a new xsl: analyze string inside the non-matching substring, and keep on going, so each new one nests inside the non-matching substring of the previous analyze-string.-->
                     <xsl:matching-substring>
                         <span class="motifDD" id="DD-{$poemTitle}-{$lineNum}"><xsl:value-of select="."/></span>
@@ -91,7 +91,7 @@ any time this phrase is used anywhere the poetry collection.
                                 <span class="motifD" id="D-{$poemTitle}-{$lineNum}"><xsl:value-of select="."/></span>
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
-                                <xsl:value-of select="normalize-space(.)"/>
+                                <xsl:value-of select="."/>
                             </xsl:non-matching-substring>
                         </xsl:analyze-string>
                     </xsl:non-matching-substring>

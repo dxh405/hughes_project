@@ -161,7 +161,8 @@ p a{
 
 .lineNum{
     text-align: left;
-    padding-right: 16em;
+    padding-right: 13em;
+    color: maroon;
 }
 
 .line {
@@ -172,6 +173,8 @@ p a{
 
 .pageNum {
     text-align: right;
+    font-size: 20px;
+    color: maroon;
 }
 
 .TOC{
