@@ -15,8 +15,9 @@ any time this phrase is used anywhere the poetry collection.
         <html>
             <head>
                 <title>Montage of A Dream Deferred</title>
-                <link rel="stylesheet" type="text/css" href="hughproject.css"/>
+                <link rel="stylesheet" type="text/css" href="hughproject.css" />
                 <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jkx1xou.css" />
+                <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&amp;family=Architects+Daughter&amp;family=Caveat:wght@500&amp;family=Fredericka+the+Great&amp;family=IM+Fell+French+Canon+SC&amp;family=Merienda:wght@400;700&amp;family=Montserrat&amp;display=swap" rel="stylesheet"/>
                 <!--ebb: The second CSS link line is giving you your handwriting-style font, but you might want to explore some other options that are easier to read on a screen!
                 This looks pretty good for the poem titles, but it's hard for the main title (with a series of flourishy capitals in a row),
                 and the default size (for the words in the poems) is awfully small. -->
@@ -24,12 +25,13 @@ any time this phrase is used anywhere the poetry collection.
             <body>
                 <h1><xsl:apply-templates select="descendant::text/title[1]"/></h1>
                 <h2>by Langston Hughes</h2>
-                <ul> <!-- jkc: Navigation Bar -->
-                    <li><a href="index.html">Home</a></li>
+                <ul class="Nav">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="separatePoems.html">Reading View</a></li>
+                    <li><a href="https://newtfire.org/courses/tutorials/hughesMontage.pdf" target="_blank">Original Manuscript</a></li>
                     <li><a href="about.html">About the Project</a></li>
                     <li><a href="aboutTeam.html">About the Team</a></li>
-                    <li><a href="hughesbio.html">About Langston Hughes</a></li>
-                    <li><a href="https://newtfire.org/courses/tutorials/hughesMontage.pdf">Original Manuscript</a></li>
+                    
                 </ul>
                 <!--jkc:Table of Contents -->
                 <section id="contents"> <table> 

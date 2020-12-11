@@ -6,27 +6,24 @@
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
- <!--2020-12-04 ebb: This XSLT models xsl:analyze string, while outputting a reading view of the Montage of a Dream Deferred poetry collection.
-The xsl:analyze-string code is matching on a text() node, any text() node, and it is designed to match
-on the phrase "dream deferred" to output it in an HTML <span class="motif"> which can be styled to highlight 
-any time this phrase is used anywhere the poetry collection.
- -->   
     <xsl:template match="/">
         <html>
             <head>
                 <title>Montage of A Dream Deferred</title>
-                <link rel="stylesheet" type="text/css" href="hughproject.css"/>
+                <link rel="stylesheet" type="text/css" href="hughproject.css" />
                 <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jkx1xou.css" />
+                <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&amp;family=Architects+Daughter&amp;family=Caveat:wght@500&amp;family=Fredericka+the+Great&amp;family=IM+Fell+French+Canon+SC&amp;family=Merienda:wght@400;700&amp;family=Montserrat&amp;display=swap" rel="stylesheet"/>
             </head>
             <body>
                 <h1><xsl:apply-templates select="descendant::text/title[1]"/></h1>
                 <h2>by Langston Hughes</h2>
-                <ul> <!-- jkc: Navigation Bar -->
-                    <li><a href="index.html">Home</a></li>
+                <ul class="Nav">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="separatePoems.html">Reading View</a></li>
+                    <li><a href="https://newtfire.org/courses/tutorials/hughesMontage.pdf" target="_blank">Original Manuscript</a></li>
                     <li><a href="about.html">About the Project</a></li>
                     <li><a href="aboutTeam.html">About the Team</a></li>
-                    <li><a href="hughesbio.html">About Langston Hughes</a></li>
-                    <li><a href="https://newtfire.org/courses/tutorials/hughesMontage.pdf">Original Manuscript</a></li>
+                    
                 </ul>
                 <hr/>
                 <!-- jkc: the actual poems -->
