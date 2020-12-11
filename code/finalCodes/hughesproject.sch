@@ -21,6 +21,11 @@
             </report>
         </rule>
     </pattern>
+    <pattern>
+        <rule context="pb">
+            <report test="@pNum &lt;= preceding::pb/@pNum">Fix this.</report>
+        </rule>
+    </pattern>
     <pattern> <!-- jkc: Checking for distinct id tags -->
         <rule context="a">
             <report test="distinct-values(@href)">

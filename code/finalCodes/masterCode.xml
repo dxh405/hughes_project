@@ -949,7 +949,6 @@
         </poem>
         <!-- up to 243 -->
         <!-- contributor: Jacqueline Chan --><pb pNum="254"/>
-        <pb pNum="254"/>
         <poem>
             <poemTitle>
                 Request
@@ -1493,7 +1492,7 @@
             </body>
         </poem>
         <!-- up to 259 -->
-        <!-- contributor: Aidan Olsen --><pb pNum="266"/>
+        <!-- contributor: Aidan Olsen -->
         <poem>
             <poemTitle>Likewise</poemTitle>
             <body>
@@ -1710,7 +1709,7 @@
         </poem>
         <pb pNum="271"/>
         <poem cont="continued"> 
-            <poemTitle></poemTitle>
+            <poemTitle>Same in the Blues</poemTitle>
             <body>
                 <stanza n="8"> 
                     <line n="26"> <format wordType="italics"> There's liable</format></line>

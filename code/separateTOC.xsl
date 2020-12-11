@@ -15,7 +15,7 @@ any time this phrase is used anywhere the poetry collection.
         <html>
             <head>
                 <title>Montage of A Dream Deferred</title>
-                <link rel="stylesheet" type="text/css" href="../docs/hughproject.css"/>
+                <link rel="stylesheet" type="text/css" href="hughproject.css"/>
                 <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jkx1xou.css" />
                 <!--ebb: The second CSS link line is giving you your handwriting-style font, but you might want to explore some other options that are easier to read on a screen!
                 This looks pretty good for the poem titles, but it's hard for the main title (with a series of flourishy capitals in a row),
@@ -46,9 +46,12 @@ any time this phrase is used anywhere the poetry collection.
         </html>
     </xsl:template>
     <xsl:template match="poem" mode="toc">
-        <tr>  <xsl:if test="not(@cont)">
-            <td><a href="separatePoems.html#P{count(preceding::poem[not(@cont)])+ 1}"><xsl:apply-templates select="poemTitle"/></a></td>
-           <td><a href="separatePoems.html#PG{preceding-sibling::pb[1]/@pNum}"><xsl:apply-templates select="preceding-sibling::pb[1]/@pNum"></xsl:apply-templates></a></td></xsl:if>
+        <tr>
+            <td><xsl:choose>
+                <xsl:when test="not(@cont)"><a href="separatePoems.html#P{count(preceding::poem[not(@cont)])+ 1}"><xsl:apply-templates select="poemTitle"/></a></xsl:when>
+                <xsl:otherwise><span class="trouble"><xsl:apply-templates select="poemTitle"/></span></xsl:otherwise>
+                </xsl:choose></td>
+            <td><a href="separatePoems.html#PG{preceding::pb[1]/@pNum}"><xsl:apply-templates select="preceding-sibling::pb[1]/@pNum"></xsl:apply-templates></a></td>
             <td><xsl:variable name="MD" select="'[Mm]ontage of a [Dd]ream [Dd]eferred'"/>
                 <xsl:variable name="DD" select="'[Dd]ream [Dd]eferred'"/>
                 <xsl:variable name="D" select="'[Dd]ream'"/>
@@ -57,33 +60,21 @@ any time this phrase is used anywhere the poetry collection.
                    <xsl:variable name="Motifmatch" select="descendant::line[matches(.,$MD)][1]"/>
                    <xsl:variable name="PoemTitle" select="$Motifmatch/preceding::poemTitle[string-length() gt 1][1]!tokenize(.,' ')[1]"/>
                    <xsl:variable name="lineNum" select="$Motifmatch/@n"/>
-                   <li><a href="separatePoems.html#MD-{$PoemTitle}-{$lineNum}">Montage Motif</a></li>
+                   <li><a href="separatePoems.html#MD-{$PoemTitle}-{$lineNum}">Montage</a></li>
                </xsl:when>
              <xsl:otherwise><xsl:choose><xsl:when test="descendant::line[matches(.,$DD)]">
                    <xsl:variable name="Motifmatch" select="descendant::line[matches(.,$DD)][1]"/>
                    <xsl:variable name="PoemTitle" select="$Motifmatch/preceding::poemTitle[string-length() gt 1][1]!tokenize(.,' ')[1]"/>
                    <xsl:variable name="lineNum" select="$Motifmatch/@n"/>
-                   <li><a href="separatePoems.html#DD-{$PoemTitle}-{$lineNum}">Dream Deferred Motif</a></li>
+                   <li><a href="separatePoems.html#DD-{$PoemTitle}-{$lineNum}">Dream deferred</a></li>
                </xsl:when>
               <xsl:otherwise> <xsl:if test="descendant::line[matches(.,$D)]">
                    <xsl:variable name="Motifmatch" select="descendant::line[matches(.,$D)][1]"/>
                    <xsl:variable name="PoemTitle" select="$Motifmatch/preceding::poemTitle[string-length() gt 1][1]!tokenize(.,' ')[1]"/>
                    <xsl:variable name="lineNum" select="$Motifmatch/@n"/>
-                   <li><a href="separatePoems.html#D-{$PoemTitle}-{$lineNum}">Dream Motif</a></li>
+                   <li><a href="separatePoems.html#D-{$PoemTitle}-{$lineNum}">Dream</a></li>
                </xsl:if></xsl:otherwise></xsl:choose></xsl:otherwise></xsl:choose></ul>
                </xsl:if>
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
            </td>
         </tr>
        

@@ -33,6 +33,7 @@ a {
 
 }
 
+
 td a {
     text-decoration: underline;
     text-align: left;
@@ -179,6 +180,16 @@ p a{
 
 .TOC{
     background-color: transparent;    
+}
+
+.trouble{
+   display: block;
+    color:maroon;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 /* list of fonts to use
