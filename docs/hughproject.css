@@ -167,7 +167,7 @@ p a{
     color: black;
     text-decoration: underline;
     text-decoration-color: gray;
-    font-size: 1em;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -204,7 +204,8 @@ p a{
 }
 
 img{
-    padding:1em;
+    padding:1.1em;
+    padding-bottom: 30em;
 }
 
 p{
