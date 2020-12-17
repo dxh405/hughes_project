@@ -82,6 +82,9 @@ font-weight: 400;
 
 h4{
 text-align:center;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+
 }
 /* AW: img-container is what I used to make the navigation bar and to center the heading*/
 .img-container 
@@ -120,7 +123,7 @@ font-family: inherit;
 font-size: inherit;
 }
 
-p,td {
+td {
 padding-left:5px;
 font-family:poetica-std, serif;
 }
@@ -162,6 +165,10 @@ display: block;
 p a{
     text-align: inherit;
     color: black;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .lineNum{
@@ -197,9 +204,17 @@ p a{
 }
 
 img{
-    padding:10px;
+    padding:1em;
+}
+p{
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
 }
 
+hr{
+    color: antiquewhite;
+    border: medium;
+}
 /* list of fonts to use
 font-family: 'Annie Use Your Telescope', cursive;
 font-family: 'Architects Daughter', cursive;
