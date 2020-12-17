@@ -206,6 +206,7 @@ p a{
 img{
     padding:1em;
 }
+
 p{
     font-size: 1.1em;
     font-family: 'Montserrat', sans-serif;
@@ -214,6 +215,18 @@ p{
 hr{
     color: antiquewhite;
     border: medium;
+}
+
+.codeLinks{
+    color: maroon;
+}
+.codeLinks th{
+    padding: 0.5em;
+    font-size: 27px;
+}
+.codeLinks a{
+    text-decoration: underline;
+    text-decoration-color: indianred;
 }
 /* list of fonts to use
 font-family: 'Annie Use Your Telescope', cursive;
