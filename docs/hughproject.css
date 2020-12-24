@@ -33,6 +33,7 @@ a {
 
 }
 
+
 td a {
     text-decoration: underline;
     text-align: left;
@@ -42,7 +43,7 @@ td a {
     background-color: #D99D29;
 }
 
-li a:hover {
+.Nav li a:hover {
     background-color: #DC8920;
     color: white;
 }
@@ -59,13 +60,16 @@ color:maroon;
 font-family: 'Fredericka the Great', cursive;
 font-style: normal;
 font-weight: 400;
+text-align: center;
 }
 
 h2 {
 font-size:40px;
-font-family: 'Montserrat', sans-serif;
+font-family: 'IM Fell French Canon SC', serif;
 font-style: normal;
 font-weight: 400;
+text-align: center;
+color:maroon;
 }
 
 h3 {
@@ -74,6 +78,13 @@ color: maroon;
 font-family: 'Architects Daughter', cursive;
 font-style: normal;
 font-weight: 400;
+}
+
+h4{
+text-align:center;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+
 }
 /* AW: img-container is what I used to make the navigation bar and to center the heading*/
 .img-container 
@@ -112,7 +123,7 @@ font-family: inherit;
 font-size: inherit;
 }
 
-p,td {
+td {
 padding-left:5px;
 font-family:poetica-std, serif;
 }
@@ -134,6 +145,13 @@ font-size: inherit;
 span.motif {color:red;
     
 }
+
+.motifMD {color:red; 
+}
+
+.motifDD {color: blue;}
+
+.motifD {color:green;}
 /* dxh: added formatting for the about the team page */
 .image1 
 {
@@ -142,17 +160,75 @@ display: block;
     margin-right: auto;
    border-radius: 50%; 
    width: 200px;
+}
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family:"DK Lemon Yellow Sun";
- font-size: 30px;
- }
+p a{
+    text-align: inherit;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.lineNum{
+    text-align: left;
+    padding-right: 13em;
+    color: maroon;
+}
+
+.line {
+    text-align: left;
+    padding-left: 10em;
+    font-size: 25px;
+}
+
+.pageNum {
+    text-align: right;
+    font-size: 20px;
+    color: maroon;
+}
+
+.TOC{
+    background-color: transparent;    
+}
+
+.trouble{
+   display: block;
+    color:maroon;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+img{
+    padding:1.1em;
+    padding-bottom: 30em;
+}
+
+p{
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    color: antiquewhite;
+    border: medium;
+}
+
+.codeLinks{
+    color: maroon;
+}
+.codeLinks th{
+    padding: 0.5em;
+    font-size: 27px;
+}
+.codeLinks a{
+    text-decoration: underline;
+    text-decoration-color: indianred;
+}
 /* list of fonts to use
 font-family: 'Annie Use Your Telescope', cursive;
 font-family: 'Architects Daughter', cursive;
